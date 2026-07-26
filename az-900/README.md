@@ -10,8 +10,8 @@
 
 ### Descrever a computação em nuvem
 
-- [ ] [Definir a computação em nuvem](./01-descrever-os-conceitos-da-nuvem/01-descrever-computacao-em-nuvem.md)
-- [ ] Descrever o modelo de responsabilidade compartilhada
+- [x] [Definir a computação em nuvem](./01-descrever-os-conceitos-da-nuvem/01-descrever-computacao-em-nuvem.md)
+- [x] Descrever o modelo de responsabilidade compartilhada
 - [ ] Definir os modelos de nuvem, incluindo público, privado e híbrido
 - [ ] Identificar os casos de uso apropriados para cada modelo de nuvem
 - [ ] Descrever o modelo baseado em consumo
