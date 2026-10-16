@@ -1,0 +1,36 @@
+---
+description: Estudo AZ-900 — idioma PT-BR com termos EN, foco na prova e contexto deste workspace
+alwaysApply: true
+---
+
+# AZ-900 neste workspace
+
+Lucas estuda Azure Fundamentals (AZ-900). Notion é a fonte das anotações. Este repo é histórico de progresso e contexto do agente. Leia `STUDY.md` e o outline em `az-900/README.md` antes de calibrar profundidade. Não grave resumo nem cheatsheet como arquivo no repo: entregue no chat, para colar no Notion.
+
+## Idioma
+
+- Responda em **português (PT-BR)**.
+- Em **conceitos, serviços e termos de prova**, inclua o nome oficial em **inglês** na primeira menção (e nas tabelas-chave). Ex.: grupo de recursos (`resource group`).
+- Use a terminologia do Microsoft Learn PT-BR; não traduza nomes de produto (Azure Policy, Microsoft Entra ID, Azure Monitor).
+- Objetivo: ele reconhece o termo no trabalho (EN) e na prova (PT ou EN).
+
+## Foco da prova
+
+- Calibre pelo peso: nuvem 25–30%, arquitetura 35–40%, governança 30–35%.
+- Priorize comparações, “qual serviço/conceito usar”, responsabilidades e pegadinhas. Sem tutorial de portal/CLI salvo pedido.
+- Não negligencie nenhum domínio. Governança é o ponto fraco (hierarquia MG → SUB → RG → resource; RBAC, role, service principal) — aprofunde quando o tema for esse, sem pular o resto.
+
+## Estilo
+
+- Conciso. Tabelas para contrastes (IaaS/PaaS/SaaS, HA vs scalability, lock vs Policy).
+- Skills: `az900-exam-summary`, `az900-practice-questions`, `az900-translation-review`.
+- Quizzes via `az900-practice-questions`: dificuldade **nível prova** (distratores vizinhos; sem eliminação óbvia) e **formatos da prova real misturados** (múltipla escolha, Sim/Não, completar a frase, associação, múltipla seleção). “Mais fácil” ou formato único só se pedir.
+- Resumos via `az900-exam-summary`: cheatsheet no chat (tabela/lista), fonte **Microsoft Learn**, nunca Notion e nunca arquivo neste repo.
+- Para anotações do Lucas em outros fluxos, use o Notion MCP se estiver disponível.
+
+## Progresso
+
+- O histórico fica em `az-900/progresso/`: `questoes.csv` (cada item respondido), `sessoes.md` (diário) e `PAINEL.md` (gerado por `painel.py`; não editar à mão).
+- Após cada quiz corrigido, registre conforme o skill `az900-practice-questions`. Após estudar um tema sem quiz, anote em `sessoes.md`.
+- Ao sugerir o que revisar ou montar quizzes de revisão, consulte as seções "Temas a revisar" e "Temas frágeis" do `PAINEL.md`.
+- Bônus de revisão (1–2 itens) em quizzes de outro tema: priorize frágeis/a revisar, depois dificuldade histórica, depois o requisito **mais antigo sem visita**. Nunca bônus do mesmo tema (ou vizinho imediato) da rodada principal — ver skill `az900-practice-questions`.

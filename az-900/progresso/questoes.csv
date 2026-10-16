@@ -1,0 +1,395 @@
+data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
+2026-08-20,S01,A11,App Service,multipla-escolha,essencial,certo,?,,web e API sem gerenciar infraestrutura
+2026-08-20,S01,A11,espectro de hospedagem,multipla-escolha,essencial,certo,?,,VM é a opção com mais controle
+2026-08-20,S01,A11,WebJobs,multipla-escolha,detalhe,certo,?,,
+2026-08-20,S01,A11,contêineres para hospedagem,multipla-escolha,essencial,certo,?,,isolar componentes da solução
+2026-08-20,S01,A11,App Service,multipla-escolha,essencial,certo,?,,definição HTTP com escala automática
+2026-08-25,S02,A12,finalidade da VNet,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,sub-redes,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,emparelhamento,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,ExpressRoute,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,DNS do Azure,multipla-escolha,essencial,errado,?,distracao,marcou limitação regional inexistente por leitura desatenta
+2026-08-25,S02,A12,emparelhamento,multipla-escolha,essencial,certo,?,,VNet com VNet sem Internet
+2026-08-25,S02,A12,VPN site a site,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,ExpressRoute,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,sub-redes,multipla-escolha,essencial,certo,?,,
+2026-08-25,S02,A12,DNS do Azure,multipla-escolha,essencial,certo,?,,
+2026-10-06,S03,N05,CapEx vs OpEx,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N02,responsabilidade compartilhada,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N04,nuvem híbrida,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N03,nuvem privada,multipla-escolha,essencial,certo,D,,
+2026-10-06,S03,N05,modelo baseado em consumo,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N07,computação sem servidor,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N08,escalabilidade,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N09,previsibilidade,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N10,governança,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,N15,IaaS,multipla-escolha,essencial,certo,C,,lift-and-shift com controle do SO
+2026-10-06,S03,A01,pares de regiões,multipla-escolha,essencial,errado,D,conteudo,confundiu com regiões soberanas
+2026-10-06,S03,A02,zonas de disponibilidade,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A01,regiões soberanas,multipla-escolha,essencial,certo,D,,
+2026-10-06,S03,A02,zonas de disponibilidade,multipla-escolha,essencial,certo,C,,mínimo de três zonas
+2026-10-06,S03,A03,regiões e datacenters,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A04,grupos de recursos,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A05,assinaturas,multipla-escolha,essencial,certo,D,,limite de cobrança e de acesso
+2026-10-06,S03,A06,grupos de gerenciamento,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A07,hierarquia e herança,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A07,hierarquia e herança,multipla-escolha,essencial,certo,C,,herança de RBAC
+2026-10-06,S03,A08,Azure Functions,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A08,ACI,multipla-escolha,essencial,errado,C,conteudo,escolheu App Service pela palavra contêiner
+2026-10-06,S03,A08,AKS,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A09,conjuntos de dimensionamento,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A09,conjuntos de disponibilidade,multipla-escolha,essencial,certo,D,,acertou por eliminação
+2026-10-06,S03,A09,domínios de atualização e de falha,multipla-escolha,essencial,errado,X,conteudo,não lembrava de domínio de atualização
+2026-10-06,S03,A09,Área de Trabalho Virtual,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A10,tamanho da VM,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A11,VM para hospedagem,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A11,App Service,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A08,Container Apps,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A08,ACI,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A01,pares de regiões,multipla-escolha,essencial,certo,C,,residência de dados na mesma geografia
+2026-10-06,S03,A01,regiões soberanas,multipla-escolha,essencial,certo,C,,Azure China
+2026-10-06,S03,A09,domínios de atualização e de falha,multipla-escolha,essencial,certo,C,,domínio de falha
+2026-10-06,S03,A05,assinaturas,multipla-escolha,essencial,certo,C,,separar ambientes
+2026-10-06,S03,A12,ExpressRoute,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A12,emparelhamento,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A12,VPN site a site,multipla-escolha,essencial,errado,C,nomenclatura,não conhecia a diferença entre site a site e ponto a site
+2026-10-06,S03,A12,VPN como failover do ExpressRoute,multipla-escolha,essencial,errado,D,pegadinha,buscou recurso do próprio ExpressRoute em vez de serviço complementar
+2026-10-06,S03,A12,VPN ponto a site,multipla-escolha,essencial,certo,C,,
+2026-10-06,S03,A12,emparelhamento,multipla-escolha,essencial,certo,C,,
+2026-10-07,S04,A12,finalidade da VNet,multipla-escolha,essencial,certo,C,,
+2026-10-07,S04,A12,sub-redes,multipla-escolha,essencial,certo,C,,
+2026-10-07,S04,A12,DNS do Azure,multipla-escolha,essencial,certo,C,,não compra domínio
+2026-10-07,S04,A12,zonas DNS privadas,multipla-escolha,detalhe,certo,D,,dúvida com registros de alias
+2026-10-07,S04,A12,emparelhamento,multipla-escolha,essencial,certo,C,,
+2026-10-07,S04,A12,gateway de VPN,multipla-escolha,detalhe,certo,D,,um gateway por VNet
+2026-10-07,S04,A12,VPN baseada em rota,multipla-escolha,detalhe,certo,X,,
+2026-10-07,S04,A12,VPN site a site,multipla-escolha,essencial,certo,C,,
+2026-10-07,S04,A12,ExpressRoute,multipla-escolha,detalhe,certo,C,,acesso ao Microsoft 365
+2026-10-07,S04,A12,Alcance Global,multipla-escolha,detalhe,certo,C,,
+2026-10-08,S05,A13,endpoints públicos e privados,multipla-escolha,essencial,certo,C,,
+2026-10-08,S05,A13,endpoints públicos e privados,multipla-escolha,essencial,certo,C,,
+2026-10-08,S05,A13,endpoints públicos e privados,multipla-escolha,essencial,certo,C,,
+2026-10-08,S05,A13,endpoints públicos e privados,multipla-escolha,essencial,certo,C,,acesso via VPN
+2026-10-08,S05,A13,endpoints públicos e privados,multipla-escolha,essencial,certo,C,,
+2026-10-09,S06,A14,Arquivos vs Blobs,multipla-escolha,essencial,certo,C,,servidor de arquivos SMB
+2026-10-09,S06,A14,Arquivos vs Blobs,multipla-escolha,essencial,certo,C,,streaming de vídeo
+2026-10-09,S06,A14,Filas,multipla-escolha,essencial,certo,C,,
+2026-10-09,S06,A14,Tabelas,multipla-escolha,essencial,certo,C,,
+2026-10-09,S06,A14,Discos,multipla-escolha,essencial,certo,C,,
+2026-10-09,S06,A14,Arquivos vs Blobs,multipla-escolha,essencial,certo,C,,montagem na nuvem e no local
+2026-10-09,S06,A14,Blobs e Big Data,multipla-escolha,detalhe,certo,C,,
+2026-10-10,S07,A15,camadas de acesso,multipla-escolha,essencial,certo,C,,quente
+2026-10-10,S07,A15,camadas de acesso,multipla-escolha,essencial,certo,C,,arquivo para backup longo
+2026-10-10,S07,A15,camadas de acesso,multipla-escolha,essencial,certo,C,,esporádica
+2026-10-10,S07,A15,camadas de acesso,multipla-escolha,essencial,certo,C,,custo de guardar vs acessar
+2026-10-10,S07,A15,arquivo no nível da conta,multipla-escolha,detalhe,certo,C,,
+2026-10-10,S07,A15,reidratação,multipla-escolha,essencial,certo,C,,
+2026-10-10,S07,A15,arquivo no nível da conta,sim-nao,detalhe,certo,?,,
+2026-10-10,S07,A15,camadas de acesso,sim-nao,essencial,certo,?,,alterar camada após upload
+2026-10-10,S07,A15,camadas de acesso,sim-nao,essencial,certo,?,,esporádica e fria mais baratas para guardar
+2026-10-10,S07,A15,reidratação,sim-nao,essencial,certo,?,,
+2026-10-10,S07,A15,camadas de acesso,sim-nao,detalhe,certo,?,,fria com 90 dias
+2026-10-10,S07,A15,camadas de acesso,sim-nao,essencial,certo,?,,não se aplicam a Discos
+2026-10-10,S07,A15,camadas de acesso,completar,essencial,errado,C,distracao,marcou pela posição após a ordem das alternativas mudar
+2026-10-10,S07,A15,camadas de acesso,associacao,essencial,certo,?,,quente
+2026-10-10,S07,A15,camadas de acesso,associacao,essencial,certo,?,,esporádica
+2026-10-10,S07,A15,camadas de acesso,associacao,essencial,certo,?,,fria
+2026-10-10,S07,A15,camadas de acesso,associacao,essencial,certo,?,,arquivo
+2026-10-10,S07,A15,camadas de acesso,multipla-selecao,essencial,certo,?,,
+2026-10-10,S07,A15,camadas de acesso,multipla-escolha,essencial,certo,?,,fria para logs com leitura imediata
+2026-10-10,S07,A16,LRS,multipla-escolha,essencial,certo,C,,menor custo
+2026-10-10,S07,A16,acesso de leitura RA-,multipla-escolha,essencial,certo,C,,ler a secundária sem falha
+2026-10-10,S07,A16,ZRS,sim-nao,essencial,certo,C,,três zonas na primária
+2026-10-10,S07,A16,região secundária,sim-nao,essencial,certo,C,,definida pelo par de regiões
+2026-10-10,S07,A16,GZRS,sim-nao,essencial,certo,C,,secundária sempre local
+2026-10-10,S07,A16,acesso de leitura RA-,sim-nao,essencial,certo,C,,GRS não lê sem failover
+2026-10-10,S07,A16,replicação assíncrona e RPO,sim-nao,detalhe,certo,C,,
+2026-10-10,S07,A16,LRS,sim-nao,essencial,certo,C,,três cópias na primária
+2026-10-10,S07,A16,ZRS,associacao,essencial,certo,C,,residência de dados com falha de zona
+2026-10-10,S07,A16,GZRS,associacao,essencial,certo,C,,
+2026-10-10,S07,A16,LRS,associacao,essencial,certo,C,,
+2026-10-10,S07,A16,acesso de leitura RA-,associacao,essencial,certo,C,,RA-GZRS
+2026-10-10,S07,A16,durabilidade,completar,detalhe,certo,C,,16 noves em GRS e GZRS
+2026-10-10,S07,A16,proteção contra desastre regional,multipla-selecao,essencial,certo,C,,ZRS não protege contra desastre regional
+2026-10-10,S07,A16,acesso de leitura RA-,multipla-escolha,essencial,certo,D,,RA-GZRS; dúvida se menor custo vence requisito
+2026-10-10,S07,A16,LRS,sim-nao,essencial,certo,C,,cópias em um datacenter e não em zonas
+2026-10-10,S07,A16,região secundária,sim-nao,essencial,certo,C,,failover para a secundária
+2026-10-10,S07,A16,replicação assíncrona e RPO,sim-nao,detalhe,certo,C,,
+2026-10-10,S07,A16,ZRS,completar,essencial,certo,C,,falha de datacenter sem sair da região
+2026-10-10,S07,A16,redundância de zona na primária,multipla-selecao,essencial,certo,C,,ZRS e GZRS e RA-GZRS
+2026-10-10,S07,A16,ZRS,sim-nao,essencial,certo,C,,leitura e gravação com zona fora
+2026-10-10,S07,A16,GZRS,sim-nao,detalhe,certo,C,,seis cópias no total
+2026-10-10,S07,A16,acesso de leitura RA-,sim-nao,essencial,errado,C,conteudo,achou que RA- permite gravar na secundária
+2026-10-10,S07,A16,LRS,associacao,essencial,certo,C,,
+2026-10-10,S07,A16,GRS,associacao,essencial,certo,C,,
+2026-10-10,S07,A16,região secundária,associacao,essencial,certo,C,,RA-GRS para leitura contínua
+2026-10-10,S07,A16,ZRS,associacao,essencial,certo,C,,
+2026-10-10,S07,A16,região secundária,multipla-escolha,essencial,certo,C,,GRS só lê após failover
+2026-10-12,S08,A17,compartilhamentos de arquivos Premium,multipla-escolha,essencial,certo,C,,NFS exige Premium
+2026-10-12,S08,A17,uso geral v2 Standard,sim-nao,essencial,certo,C,,recomendado para a maioria
+2026-10-12,S08,A17,serviços por tipo de conta,sim-nao,essencial,certo,C,,blobs de blocos Premium sem Filas
+2026-10-12,S08,A17,redundância por tipo de conta,sim-nao,essencial,certo,C,,arquivos Premium com ZRS
+2026-10-12,S08,A17,blobs de blocos Premium,completar,essencial,certo,C,,objetos pequenos e latência baixa
+2026-10-12,S08,A17,compartilhamentos de arquivos Premium,associacao,essencial,certo,C,,
+2026-10-12,S08,A17,uso geral v2 Standard,associacao,essencial,certo,C,,
+2026-10-12,S08,A17,blobs de páginas Premium,associacao,essencial,certo,C,,
+2026-10-12,S08,A17,blobs de blocos Premium,associacao,essencial,certo,C,,
+2026-10-12,S08,A17,redundância por tipo de conta,multipla-escolha,essencial,certo,C,,Premium sem redundância geográfica
+2026-10-12,S08,A17,redundância por tipo de conta,multipla-selecao,essencial,certo,C,,ZRS em todos menos blobs de páginas
+2026-10-12,S08,A17,nome da conta,multipla-escolha,detalhe,certo,C,,3 a 24 minúsculas e números
+2026-10-12,S08,A17,blobs de blocos Premium,multipla-escolha,essencial,certo,C,,inclui Data Lake Storage
+2026-10-12,S08,A17,redundância por tipo de conta,sim-nao,essencial,certo,D,,tipo determina redundância
+2026-10-12,S08,A17,acesso por HTTP ou HTTPS,sim-nao,essencial,errado,D,conteudo,achou que Arquivos só via SMB ou NFS; todos os serviços têm API REST
+2026-10-12,S08,A17,serviços por tipo de conta,sim-nao,essencial,certo,D,,arquivos Premium só Arquivos
+2026-10-12,S08,A17,endpoints da conta,completar,detalhe,certo,C,,file
+2026-10-12,S08,A17,redundância por tipo de conta,associacao,essencial,certo,C,,Standard até RA-GZRS
+2026-10-12,S08,A17,blobs de blocos Premium,associacao,essencial,certo,C,,até ZRS
+2026-10-12,S08,A17,blobs de páginas Premium,associacao,essencial,certo,C,,só LRS
+2026-10-12,S08,A17,nome da conta,multipla-escolha,essencial,certo,C,,namespace exclusivo nos endpoints
+2026-10-12,S08,A17,redundância por tipo de conta,multipla-selecao,essencial,certo,C,,Data Lake e ZRS em blobs de blocos Premium
+2026-10-12,S08,A17,compartilhamentos de arquivos Premium,sim-nao,essencial,certo,C,,NFS não exige Standard
+2026-10-12,S08,A17,blobs de páginas Premium,sim-nao,essencial,certo,C,,não sabia o que é blob de páginas
+2026-10-12,S08,A17,uso geral v2 Standard,sim-nao,essencial,certo,C,,hospeda Arquivos
+2026-10-12,S08,A18,Sincronização de Arquivos do Azure,multipla-escolha,essencial,certo,C,,filiais com cache local
+2026-10-12,S08,A18,AzCopy,sim-nao,essencial,certo,C,,copia entre contas
+2026-10-12,S08,A18,sincronização de uma direção,sim-nao,essencial,certo,C,,AzCopy não é bidirecional
+2026-10-12,S08,A18,Gerenciador de Armazenamento,sim-nao,detalhe,certo,C,,usa AzCopy por baixo
+2026-10-12,S08,A18,Gerenciador de Armazenamento,completar,essencial,certo,C,,interface gráfica no macOS
+2026-10-12,S08,A18,AzCopy,associacao,essencial,certo,C,,outros provedores de nuvem
+2026-10-12,S08,A18,camada de nuvem,associacao,essencial,certo,C,,
+2026-10-12,S08,A18,Data Box vs ferramentas de arquivo,associacao,essencial,certo,D,,por eliminação; Data Box ainda não estudado
+2026-10-12,S08,A18,Gerenciador de Armazenamento,associacao,essencial,certo,C,,
+2026-10-12,S08,A18,substituir servidor com falha,multipla-escolha,detalhe,certo,D,,não entendeu o processo
+2026-10-12,S08,A18,Sincronização de Arquivos do Azure,multipla-selecao,essencial,certo,C,,camada de nuvem e protocolos
+2026-10-12,S08,A18,AzCopy,multipla-escolha,essencial,certo,C,,cópia entre contas em pipeline
+2026-10-12,S08,A18,substituir servidor com falha,sim-nao,essencial,certo,C,,servidor local é só cache
+2026-10-12,S08,A18,Sincronização de Arquivos do Azure,sim-nao,essencial,certo,C,,instalada em Windows Server
+2026-10-12,S08,A18,camada de nuvem,sim-nao,essencial,certo,C,,
+2026-10-12,S08,A18,Sincronização de Arquivos do Azure,completar,essencial,certo,C,,bidirecional entre filiais
+2026-10-12,S08,A18,Gerenciador de Armazenamento,multipla-selecao,detalhe,certo,C,,multiplataforma e entre contas
+2026-10-12,S08,A18,AzCopy,associacao,essencial,certo,C,,linha de comando
+2026-10-12,S08,A18,sincronização de uma direção,associacao,essencial,certo,C,,
+2026-10-12,S08,A18,Gerenciador de Armazenamento,associacao,essencial,certo,C,,
+2026-10-12,S08,A18,Sincronização de Arquivos do Azure,associacao,essencial,certo,C,,vários caches
+2026-10-12,S08,A18,camada de nuvem,multipla-escolha,essencial,certo,C,,disco local menor que os dados
+2026-10-12,S08,A19,Migrações para Azure,multipla-escolha,essencial,certo,C,,descobrir e avaliar e migrar servidores
+2026-10-12,S08,A19,exportação com Data Box,sim-nao,essencial,certo,C,,
+2026-10-12,S08,A19,Data Box vs Migrações para Azure,sim-nao,essencial,certo,C,,Data Box não avalia servidores
+2026-10-12,S08,A19,Migrações para Azure,sim-nao,essencial,certo,C,,bancos de dados e aplicativos web
+2026-10-12,S08,A19,Azure Data Box,completar,essencial,certo,C,,cargas grandes periódicas com pouca banda
+2026-10-12,S08,A19,exportação com Data Box,associacao,essencial,certo,C,,cópia física para auditoria
+2026-10-12,S08,A19,Migrações para Azure,associacao,essencial,certo,C,,
+2026-10-12,S08,A18,Data Box vs ferramentas de arquivo,associacao,essencial,certo,C,,AzCopy para 5 GB diários
+2026-10-12,S08,A18,Gerenciador de Armazenamento,associacao,essencial,certo,C,,
+2026-10-12,S08,A19,capacidade do Data Box,multipla-escolha,detalhe,certo,C,,80 TB
+2026-10-12,S08,A19,Azure Data Box,multipla-selecao,essencial,certo,C,,migração única e exportação
+2026-10-12,S08,A14,Tabelas,multipla-escolha,essencial,certo,C,,NoSQL chave e atributo
+2026-10-12,S08,A15,arquivo no nível da conta,sim-nao,essencial,certo,C,,
+2026-10-12,S08,A15,reidratação,sim-nao,essencial,certo,C,,
+2026-10-12,S08,A15,camadas de acesso,sim-nao,detalhe,certo,C,,fria 90 dias
+2026-10-12,S08,A16,acesso de leitura RA-,completar,essencial,certo,C,,somente leitura na secundária
+2026-10-12,S08,A17,uso geral v2 Standard,associacao,essencial,certo,C,,Filas e Tabelas
+2026-10-12,S08,A17,compartilhamentos de arquivos Premium,associacao,essencial,certo,C,,NFS
+2026-10-12,S08,A17,blobs de páginas Premium,associacao,essencial,certo,C,,
+2026-10-12,S08,A17,serviços por tipo de conta,associacao,essencial,certo,C,,Data Lake em blobs de blocos Premium
+2026-10-12,S08,A17,acesso por HTTP ou HTTPS,sim-nao,essencial,certo,C,,Arquivos também por HTTPS
+2026-10-12,S08,A17,redundância por tipo de conta,sim-nao,essencial,certo,C,,Premium sem GZRS
+2026-10-12,S08,A16,GZRS,sim-nao,essencial,certo,C,,GRS usa LRS na primária
+2026-10-12,S08,A18,AzCopy,multipla-escolha,essencial,certo,C,,outro provedor de nuvem
+2026-10-12,S08,A16,proteção contra desastre regional,multipla-selecao,essencial,certo,C,,GZRS e RA-GRS
+2026-10-12,S08,A19,Azure Data Box,multipla-escolha,essencial,certo,C,,migração única com banda saturada
+2026-10-12,S08,A12,VPN como failover do ExpressRoute,multipla-escolha,essencial,certo,C,,
+2026-10-12,S08,A12,gateway de VPN,sim-nao,essencial,errado,X,conteudo,não lembrava do limite de um gateway por VNet
+2026-10-12,S08,A12,gateway de VPN multissite,sim-nao,essencial,errado,X,conteudo,um gateway conecta vários locais
+2026-10-12,S08,A12,VPN baseada em rota,sim-nao,detalhe,certo,X,,
+2026-10-12,S08,A09,domínios de atualização e de falha,completar,essencial,certo,C,,atualização
+2026-10-12,S08,A09,domínios de atualização e de falha,associacao,essencial,certo,C,,falha
+2026-10-12,S08,A09,domínios de atualização e de falha,associacao,essencial,certo,C,,atualização
+2026-10-12,S08,A12,zonas DNS privadas,associacao,essencial,certo,C,,
+2026-10-12,S08,A12,registros de alias,associacao,detalhe,certo,C,,
+2026-10-12,S08,N03,nuvem privada,multipla-escolha,essencial,certo,C,,hospedada por terceiro
+2026-10-12,S08,A09,conjuntos de disponibilidade,multipla-selecao,essencial,errado,D,pegadinha,marcou escala automática (VMSS) em vez de sem custo adicional
+2026-10-12,S09,A12,gateway de VPN,multipla-escolha,essencial,certo,C,,um gateway atende várias conexões
+2026-10-12,S09,A12,gateway de VPN,sim-nao,essencial,certo,C,,um por VNet
+2026-10-12,S09,A12,gateway de VPN multissite,sim-nao,essencial,certo,C,,um gateway vários locais
+2026-10-12,S09,A12,VPN baseada em rota,sim-nao,detalhe,certo,C,,não é baseada em política
+2026-10-12,S09,A09,conjuntos de disponibilidade,completar,essencial,certo,C,,escala automática é VMSS
+2026-10-12,S09,A09,conjuntos de disponibilidade,associacao,essencial,certo,C,,sem custo adicional
+2026-10-12,S09,A12,VPN baseada em rota,associacao,detalhe,certo,C,,ponto a site e ExpressRoute
+2026-10-12,S09,A12,gateway de VPN,associacao,essencial,certo,C,,
+2026-10-12,S09,A09,conjuntos de disponibilidade,associacao,essencial,certo,C,,VMSS multiplica
+2026-10-12,S09,A09,conjuntos de disponibilidade,multipla-selecao,essencial,certo,C,,sem custo e domínios
+2026-10-12,S09,A12,VPN baseada em rota,multipla-escolha,detalhe,certo,C,,failover do ExpressRoute
+2026-10-12,S09,N15,IaaS,multipla-escolha,essencial,certo,C,,gerenciar SO e patches
+2026-10-12,S09,N13,PaaS,sim-nao,essencial,certo,C,,cliente não gerencia o SO
+2026-10-12,S09,N05,CapEx vs OpEx,sim-nao,essencial,certo,C,,
+2026-10-12,S09,N02,responsabilidade compartilhada,sim-nao,essencial,certo,C,,segurança física é do provedor
+2026-10-12,S09,A06,grupos de gerenciamento,completar,essencial,certo,C,,várias assinaturas
+2026-10-12,S09,A08,ACI,associacao,essencial,certo,C,,
+2026-10-12,S09,A11,App Service,associacao,essencial,certo,C,,
+2026-10-12,S09,A08,AKS,associacao,essencial,certo,C,,
+2026-10-12,S09,A08,Azure Functions,associacao,essencial,certo,C,,
+2026-10-12,S09,A01,pares de regiões,multipla-escolha,essencial,certo,C,,mesma geografia
+2026-10-12,S09,A05,assinaturas,sim-nao,essencial,certo,C,,limite de cobrança e de acesso
+2026-10-12,S09,A04,grupos de recursos,sim-nao,essencial,certo,C,,recursos podem estar em regiões diferentes
+2026-10-12,S09,A02,zonas de disponibilidade,sim-nao,essencial,certo,C,,
+2026-10-12,S09,A13,endpoints públicos e privados,multipla-selecao,essencial,certo,C,,
+2026-10-12,S09,N04,nuvem híbrida,multipla-escolha,essencial,certo,C,,
+2026-10-12,S09,A20,Entra Domain Services vs AD DS em VMs,multipla-escolha,essencial,errado,C,conteudo,marcou C e D; não sabia o que é AD e Kerberos e LDAP
+2026-10-12,S09,A20,Entra Connect,sim-nao,essencial,certo,D,,
+2026-10-12,S09,A20,sincronização do Domain Services,sim-nao,essencial,errado,D,conteudo,achou que o domínio gerenciado sincroniza de volta para o Entra ID
+2026-10-12,S09,A20,controladores de domínio gerenciados,sim-nao,essencial,certo,D,,
+2026-10-12,S09,A20,Entra Connect,completar,essencial,certo,C,,mesmas credenciais no Microsoft 365
+2026-10-12,S09,A20,Entra Domain Services vs AD DS em VMs,associacao,essencial,errado,D,conteudo,ficou entre Domain Services e AD DS em VMs
+2026-10-12,S09,A20,Entra ID,associacao,essencial,certo,D,,SSO em apps SaaS
+2026-10-12,S09,A20,Entra Connect,associacao,essencial,certo,D,,
+2026-10-12,S09,A20,detecção de logins suspeitos,multipla-escolha,detalhe,certo,C,,
+2026-10-12,S09,A20,recursos do Domain Services,multipla-selecao,essencial,certo,C,,
+2026-10-12,S09,A20,Entra Domain Services vs AD DS em VMs,multipla-escolha,essencial,certo,C,,controle total pede AD DS em VMs
+2026-10-12,S09,A20,Entra ID,sim-nao,essencial,certo,C,,não fala Kerberos nem LDAP sozinho
+2026-10-12,S09,A20,recursos do Domain Services,sim-nao,essencial,certo,C,,credenciais existentes do Entra ID
+2026-10-12,S09,A20,sincronização do Domain Services,sim-nao,essencial,certo,C,,AD local passa pelo Entra Connect e Entra ID
+2026-10-12,S09,A20,sincronização do Domain Services,completar,essencial,certo,C,,uma direção do Entra ID
+2026-10-12,S09,A20,Entra ID,associacao,essencial,certo,C,,
+2026-10-12,S09,A20,recursos do Domain Services,associacao,essencial,certo,C,,
+2026-10-12,S09,A20,Entra Connect,associacao,essencial,certo,C,,
+2026-10-12,S09,A20,Entra Domain Services vs AD DS em VMs,associacao,essencial,certo,C,,patches pelo cliente
+2026-10-12,S09,A20,controladores de domínio gerenciados,multipla-escolha,detalhe,certo,C,,dois DCs no conjunto de réplicas
+2026-10-12,S09,A20,Entra ID,multipla-selecao,essencial,certo,C,,autoatendimento e dispositivos
+2026-10-12,S09,A20,Entra ID,multipla-escolha,essencial,certo,C,,SSO em app próprio
+2026-10-12,S09,A20,quem usa o Entra ID,sim-nao,essencial,certo,C,,assinantes do Microsoft 365 e Azure
+2026-10-12,S09,A20,Entra ID vs Domain Services,sim-nao,essencial,certo,C,,política de grupo exige domínio
+2026-10-12,S09,A20,Entra ID,sim-nao,essencial,certo,C,,cliente controla contas e Microsoft a disponibilidade
+2026-10-12,S09,A20,Proxy de Aplicativo,completar,detalhe,errado,C,pegadinha,marcou Entra Connect para publicar apps locais
+2026-10-12,S09,A20,recursos do Domain Services,associacao,essencial,certo,C,,ingresso no domínio
+2026-10-12,S09,A20,Entra ID,associacao,essencial,certo,C,,redefinição de senha
+2026-10-12,S09,A20,Entra Connect,associacao,essencial,certo,C,,evitar dois conjuntos de identidades
+2026-10-12,S09,A20,papel do Entra Connect,associacao,essencial,errado,C,conteudo,marcou Entra Connect para NTLM
+2026-10-12,S09,A20,papel do Entra Connect,multipla-escolha,essencial,errado,D,conteudo,achou que Domain Services exige Entra Connect mesmo sem AD local
+2026-10-12,S09,A20,recursos do Domain Services,multipla-selecao,essencial,certo,C,,backups pela plataforma e lift-and-shift
+2026-10-12,S09,A20,papel do Entra Connect,multipla-escolha,essencial,certo,C,,com AD local precisa do Connect
+2026-10-12,S09,A20,papel do Entra Connect,sim-nao,essencial,certo,C,,não autentica Kerberos
+2026-10-12,S09,A20,papel do Entra Connect,sim-nao,essencial,certo,C,,sem AD local não precisa
+2026-10-12,S09,A20,Proxy de Aplicativo,sim-nao,detalhe,errado,C,pegadinha,de novo atribuiu ao Entra Connect o acesso a apps locais
+2026-10-12,S09,A20,Entra Connect,completar,essencial,certo,C,,identidades entre AD local e Entra ID
+2026-10-12,S09,A20,papel do Entra Connect,multipla-selecao,essencial,certo,C,,Microsoft 365 e Domain Services com AD local
+2026-10-13,S09,A20,Entra ID,multipla-escolha,essencial,certo,C,,identidade e acesso na nuvem
+2026-10-13,S09,A20,Entra Domain Services vs AD DS em VMs,multipla-escolha,essencial,certo,C,,ingresso no domínio sem gerenciar DCs
+2026-10-13,S09,A20,quem usa o Entra ID,sim-nao,essencial,certo,C,,desenvolvedores e SSO
+2026-10-13,S09,A20,Entra ID vs Domain Services,sim-nao,essencial,certo,C,,Entra ID não exige DCs
+2026-10-13,S09,A20,Entra ID,sim-nao,essencial,certo,C,,redefinição de senha
+2026-10-13,S09,A20,Entra Connect,completar,essencial,certo,C,,
+2026-10-13,S09,A20,recursos do Domain Services,associacao,essencial,certo,C,,Kerberos e NTLM
+2026-10-13,S09,A20,papel do Entra Connect,associacao,essencial,certo,C,,
+2026-10-13,S09,A20,Proxy de Aplicativo,associacao,detalhe,certo,C,,apps locais
+2026-10-13,S09,A20,Entra ID,associacao,essencial,certo,C,,
+2026-10-13,S09,A20,controladores de domínio gerenciados,multipla-escolha,essencial,certo,C,,plataforma do Azure
+2026-10-13,S09,A20,sincronização do Domain Services,sim-nao,essencial,certo,C,,uma direção
+2026-10-13,S09,A20,sincronização do Domain Services,sim-nao,essencial,certo,C,,não volta para o Entra ID
+2026-10-13,S09,A20,controladores de domínio gerenciados,sim-nao,detalhe,certo,C,,dois DCs
+2026-10-13,S09,A20,Entra ID,multipla-selecao,essencial,certo,C,,autenticação e apps SaaS
+2026-10-13,S09,A20,gerenciamento de dispositivos,multipla-escolha,essencial,certo,C,,acesso condicional por dispositivo
+2026-10-13,S09,A20,papel do Entra Connect,multipla-escolha,essencial,certo,C,,experiência híbrida consistente
+2026-10-13,S10,A20,Proxy de Aplicativo,multipla-escolha,detalhe,certo,C,,app local sem VPN
+2026-10-13,S10,A20,controladores de domínio gerenciados,sim-nao,essencial,certo,C,,cliente não configura replicação
+2026-10-13,S10,A20,papel do Entra Connect,sim-nao,essencial,certo,C,,mesmas credenciais no domínio gerenciado
+2026-10-13,S10,A20,Entra ID vs Domain Services,sim-nao,essencial,errado,C,conteudo,achou que o Entra ID aplica política de grupo sozinho
+2026-10-13,S10,A20,recursos do Domain Services,completar,essencial,certo,C,,LDAP sem gerenciar servidores
+2026-10-13,S10,A20,papel do Entra Connect,associacao,essencial,certo,C,,
+2026-10-13,S10,A20,Entra Domain Services vs AD DS em VMs,associacao,essencial,certo,C,,controle total
+2026-10-13,S10,A20,Entra ID,associacao,essencial,certo,C,,SSO em app próprio
+2026-10-13,S10,A20,Proxy de Aplicativo,associacao,detalhe,certo,C,,
+2026-10-13,S10,A20,sincronização do Domain Services,multipla-escolha,essencial,certo,C,,sem AD local
+2026-10-13,S10,A20,controladores de domínio gerenciados,multipla-selecao,essencial,certo,C,,backups e atualizações
+2026-10-14,S11,A19,Migrações para Azure,multipla-escolha,essencial,certo,C,,avaliar compatibilidade e custo
+2026-10-14,S11,A19,Azure Data Box,sim-nao,essencial,certo,C,,pedido pelo portal
+2026-10-14,S11,A19,ferramentas das Migrações para Azure,sim-nao,essencial,errado,C,conteudo,achou que bancos e apps web ficam fora do hub
+2026-10-14,S11,A19,Azure Data Box,sim-nao,detalhe,certo,C,,discos apagados após importação
+2026-10-14,S11,A19,Azure Data Box,completar,essencial,certo,C,,30 TB com pouca banda
+2026-10-14,S11,A19,exportação com Data Box,associacao,essencial,certo,C,,
+2026-10-14,S11,A19,Migrações para Azure,associacao,essencial,certo,C,,
+2026-10-14,S11,A18,AzCopy,associacao,essencial,certo,C,,
+2026-10-14,S11,A18,Sincronização de Arquivos do Azure,associacao,essencial,certo,C,,
+2026-10-14,S11,A19,tempo real vs assíncrona,multipla-escolha,essencial,errado,D,nomenclatura,sabe o que cada serviço faz mas inverteu os rótulos
+2026-10-14,S11,A19,Azure Data Box,multipla-selecao,essencial,certo,C,,cargas periódicas e upload automático
+2026-10-14,S11,A21,SSO,multipla-escolha,essencial,certo,C,,entrar uma vez em vários apps
+2026-10-14,S11,A21,segurança do SSO,sim-nao,essencial,certo,C,,tão seguro quanto o login inicial
+2026-10-14,S11,A21,categorias de fator MFA,sim-nao,essencial,certo,C,,mesma categoria não é MFA
+2026-10-14,S11,A21,categorias de fator MFA,sim-nao,essencial,certo,C,,biometria é algo que você é
+2026-10-14,S11,A21,chaves FIDO2,completar,essencial,certo,C,,estações compartilhadas e hardware externo
+2026-10-14,S11,A21,categorias de fator MFA,associacao,essencial,certo,C,,código no celular
+2026-10-14,S11,A21,categorias de fator MFA,associacao,essencial,certo,C,,reconhecimento facial
+2026-10-14,S11,A21,categorias de fator MFA,associacao,essencial,certo,C,,PIN
+2026-10-14,S11,A21,categorias de fator MFA,associacao,essencial,certo,C,,chave USB
+2026-10-14,S11,A21,segurança vs conveniência,multipla-escolha,essencial,certo,C,,sem senha alto nos dois
+2026-10-14,S11,A21,opções sem senha,multipla-selecao,essencial,certo,D,,dúvida se o Authenticator é sem senha
+2026-10-14,S11,A21,Windows Hello para Empresas,multipla-escolha,essencial,certo,C,,PC dedicado com PKI e SSO
+2026-10-14,S11,A20,Entra ID vs Domain Services,multipla-escolha,essencial,certo,C,,política de grupo é do domínio
+2026-10-14,S11,A19,ferramentas das Migrações para Azure,multipla-selecao,essencial,certo,C,,banco de dados e app web
+2026-10-14,S11,A19,tempo real vs assíncrona,completar,essencial,certo,C,,Data Box assíncrona e física
+2026-10-14,S11,A22,colaboração B2B,multipla-escolha,essencial,certo,C,,fornecedor como convidado
+2026-10-14,S11,A22,autenticação externa e autorização,sim-nao,essencial,certo,D,,provedor externo autentica
+2026-10-14,S11,A22,conexão direta B2B,sim-nao,essencial,certo,D,,não aparece no diretório
+2026-10-14,S11,A22,ID Externa para clientes,sim-nao,essencial,errado,D,conteudo,achou que publica apps da Microsoft para consumidores
+2026-10-14,S11,A22,conexão direta B2B,completar,essencial,certo,C,,canais compartilhados do Teams
+2026-10-14,S11,A22,ID Externa para clientes,associacao,essencial,certo,C,,login com Google no app da loja
+2026-10-14,S11,A22,revisões de acesso,associacao,essencial,certo,C,,
+2026-10-14,S11,A22,colaboração B2B,associacao,essencial,certo,C,,
+2026-10-14,S11,A22,conexão direta B2B,associacao,essencial,certo,C,,
+2026-10-14,S11,A22,autenticação externa e autorização,multipla-escolha,essencial,certo,C,,
+2026-10-14,S11,A22,identidades trazidas,multipla-selecao,essencial,certo,C,,corporativa e social
+2026-10-14,S11,A21,opções sem senha,sim-nao,essencial,certo,C,,Authenticator é sem senha
+2026-10-14,S11,A21,chaves FIDO2,sim-nao,detalhe,certo,C,,WebAuthn
+2026-10-14,S11,A21,Windows Hello para Empresas,sim-nao,essencial,certo,C,,não é para estações compartilhadas
+2026-10-14,S11,A07,hierarquia e herança,multipla-escolha,essencial,certo,C,,assinatura herda para RGs e recursos
+2026-10-14,S11,A23,acesso condicional vs MFA,multipla-escolha,essencial,certo,C,,MFA só para admins e fora da rede
+2026-10-14,S11,A23,acesso condicional vs RBAC,sim-nao,essencial,certo,C,,ações depois do login são RBAC
+2026-10-14,S11,A23,acesso condicional vs MFA,sim-nao,essencial,certo,C,,dispensa segundo fator em local conhecido
+2026-10-14,S11,A23,sinais,sim-nao,essencial,certo,C,,dispositivo
+2026-10-14,S11,A23,sinal decisão imposição,completar,essencial,certo,C,,imposição
+2026-10-14,S11,A23,casos de uso,associacao,essencial,errado,C,distracao,trocou aplicativos aprovados por bloquear fontes
+2026-10-14,S11,A23,casos de uso,associacao,essencial,certo,C,,dispositivo gerenciado
+2026-10-14,S11,A23,casos de uso,associacao,essencial,certo,C,,MFA para admins
+2026-10-14,S11,A23,casos de uso,associacao,essencial,errado,C,distracao,trocou bloquear fontes por aplicativos aprovados
+2026-10-14,S11,A23,sinal decisão imposição,multipla-escolha,essencial,certo,C,,
+2026-10-14,S11,A23,sinais,multipla-selecao,essencial,certo,C,,local e dispositivo
+2026-10-14,S11,A22,ID Externa para clientes,multipla-escolha,essencial,certo,C,,consumidores do próprio app
+2026-10-14,S11,A16,GRS,multipla-escolha,essencial,certo,C,,sem leitura antes do failover
+2026-10-14,S11,A24,atribuição a grupo,multipla-escolha,essencial,certo,C,,grupo no escopo do RG cobre novos recursos
+2026-10-14,S11,A24,herança de escopo,sim-nao,essencial,certo,C,,Leitor na assinatura vê todos os RGs
+2026-10-14,S11,A24,herança de escopo,sim-nao,essencial,certo,C,,herança não sobe
+2026-10-14,S11,A24,modelo aditivo,sim-nao,essencial,certo,C,,permissões se somam
+2026-10-14,S11,A24,imposição pelo Resource Manager,completar,essencial,certo,C,,
+2026-10-14,S11,A24,funções internas,associacao,essencial,certo,C,,Leitor
+2026-10-14,S11,A24,funções internas,associacao,detalhe,certo,C,,Colaborador não concede acesso
+2026-10-14,S11,A24,funções internas,associacao,essencial,certo,C,,Proprietário concede acesso
+2026-10-14,S11,A24,funções internas,associacao,essencial,certo,C,,função personalizada
+2026-10-14,S11,A24,escopos,multipla-selecao,essencial,certo,C,,MG RG recurso
+2026-10-14,S11,A24,RBAC não cobre o aplicativo,multipla-escolha,essencial,certo,C,,
+2026-10-14,S11,A24,privilégio mínimo,multipla-escolha,essencial,certo,C,,menor escopo
+2026-10-14,S11,A23,casos de uso,multipla-escolha,essencial,errado,C,distracao,leu app móvel como dispositivo móvel
+2026-10-14,S11,A20,Entra Domain Services vs AD DS em VMs,multipla-escolha,essencial,certo,C,,
+2026-10-15,S12,A24,herança de escopo,multipla-escolha,essencial,certo,C,,Colaborador no MG herda para assinaturas sem conceder acesso
+2026-10-15,S12,A24,imposição pelo Resource Manager,sim-nao,essencial,certo,C,,
+2026-10-15,S12,A24,modelo aditivo,sim-nao,essencial,certo,C,,permissões se somam
+2026-10-15,S12,A24,herança de escopo,sim-nao,essencial,certo,C,,herança não sobe
+2026-10-15,S12,A24,privilégio mínimo,completar,essencial,certo,C,,
+2026-10-15,S12,A24,atribuição a grupo,associacao,essencial,certo,C,,
+2026-10-15,S12,A24,funções internas,associacao,essencial,certo,C,,Colaborador
+2026-10-15,S12,A24,herança de escopo,associacao,essencial,certo,C,,
+2026-10-15,S12,A24,RBAC não cobre o aplicativo,associacao,essencial,certo,C,,
+2026-10-15,S12,A24,escopos,multipla-selecao,essencial,certo,C,,MG SUB RG recurso e custom roles
+2026-10-15,S12,A24,privilégio mínimo,multipla-escolha,essencial,certo,C,,Leitor no MG
+2026-10-15,S12,A23,casos de uso,multipla-escolha,essencial,certo,C,,aplicativos cliente aprovados
+2026-10-15,S12,A23,acesso condicional vs MFA,multipla-escolha,essencial,certo,C,,MFA granular por função e local
+2026-10-15,S12,A23,acesso condicional vs RBAC,sim-nao,essencial,certo,C,,não decide ações após entrar
+2026-10-15,S12,A23,sinais,sim-nao,essencial,certo,C,,local dispositivo app
+2026-10-15,S12,A23,acesso condicional vs MFA,sim-nao,essencial,certo,C,,dispensa segundo fator em local conhecido
+2026-10-15,S12,A23,sinal decisão imposição,completar,essencial,certo,C,,decisão depois imposição
+2026-10-15,S12,A23,casos de uso,associacao,essencial,certo,C,,bloquear fontes
+2026-10-15,S12,A23,casos de uso,associacao,essencial,certo,C,,aplicativos cliente aprovados
+2026-10-15,S12,A23,casos de uso,associacao,essencial,certo,C,,dispositivos gerenciados
+2026-10-15,S12,A23,casos de uso,associacao,essencial,certo,C,,MFA por função ou local
+2026-10-15,S12,A23,acesso condicional vs Resource Manager,multipla-selecao,essencial,certo,D,,quase marcou ARM; CA é Entra não Resource Manager
+2026-10-15,S12,A23,acesso condicional vs MFA,multipla-escolha,essencial,certo,C,,CA quando; MFA como
+2026-10-15,S12,A24,funções internas,multipla-escolha,essencial,certo,C,,Colaborador não concede acesso
