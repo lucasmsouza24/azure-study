@@ -33,7 +33,7 @@ Objetivo: 1–2 questões no fim do set, de temas **não relacionados** ao tema 
 
 ### Formato do bônus
 
-Mesmo nível prova; pode ser 1 múltipla escolha ou 1 Sim/Não curto. Rotule como **Bônus de revisão** e cite o requisito/tema em uma palavra (ex. “rede — VPN site a site”).
+Mesmo nível prova; pode ser 1 escolha única ou 1 Sim/Não curto. Rotule como **Bônus de revisão** e cite o requisito/tema em uma palavra (ex. “rede — VPN site a site”).
 
 ## Nível de dificuldade (padrão = prova)
 
@@ -92,29 +92,67 @@ Evite: passos de CLI, nomes de SKU, valores de preço, features preview.
 
 ## Formatos da prova real (padrão: sempre misturar)
 
-A prova não é só múltipla escolha com uma resposta. **Todo set** deve imitar a estrutura da prova real, misturando os formatos abaixo. Ele faz muitos exercícios, então há espaço para todos ao longo das rodadas.
+**Todo set** mistura formatos. Rótulos no chat (o que o Lucas lê) ≠ códigos do CSV (compatibilidade do painel).
 
-Composição de referência para um set de ~6 itens (ajuste proporcionalmente):
+| Rótulo no chat | Significado | Código em `questoes.csv` | Como ele responde |
+| --- | --- | --- | --- |
+| **Escolha única** | Uma resposta certa entre A–D | `multipla-escolha` | `1B` |
+| **Sim/Não** | Bloco de 3 afirmações; cada uma Sim ou Não | `sim-nao` | `2: N/S/N` |
+| **Completar a frase** | Lacuna + opções | `completar` | `3B` |
+| **Associação** | 3–4 cenários ↔ opções (arrastar e soltar) | `associacao` | `4: 1C, 2A, 3D, 4B` |
+| **Múltipla escolha** | Mais de uma correta (“escolha duas/três”) entre A–E | `multipla-selecao` | `5: BD` |
 
-- 2–3 de **múltipla escolha** (continua sendo o formato mais comum)
-- 1–2 blocos de **Sim/Não** (muito frequente na AZ-900)
-- 1–2 entre **completar a frase**, **associação** e **múltipla seleção**, alternando entre as rodadas para que todos apareçam
+Não chame de “múltipla escolha” a questão de **uma** alternativa correta — use **escolha única**. “Múltipla escolha” fica só para marcar várias.
 
-Em sets curtos (3–4 itens), use pelo menos 2 formatos. Só faça um set com formato único se ele pedir.
+Composição de referência para ~6 itens:
 
-| Formato | Como montar | Como ele responde |
-| --- | --- | --- |
-| **Múltipla escolha** | Uma resposta certa entre A–D | `1B` |
-| **Sim/Não** | Bloco de 3 afirmações independentes sobre o mesmo tema; cada uma é Sim ou Não | `2: S/N/S` |
-| **Completar a frase** | Frase com lacuna e opções para preencher | `3B` |
-| **Associação** | 3–4 cenários para associar a serviços/conceitos (simula arrastar e soltar) | `4: 1C, 2A, 3D, 4B` |
-| **Múltipla seleção** | “Escolha duas” entre A–E | `5: AC` |
+- 2–3 de **escolha única**
+- 1 bloco de **Sim/Não**
+- 1–2 entre **completar**, **associação** e **múltipla escolha**, alternando entre rodadas
 
-Nos blocos Sim/Não, varie a quantidade de Sim e Não (não deixe sempre 2×1 no mesmo padrão). Em associação, cada opção pode ser usada uma vez, salvo aviso no enunciado, e a ordem das opções **não** pode coincidir com a ordem dos cenários (nada de 1A, 2B, 3C, 4D). Em completar a frase e múltipla escolha, não repita a mesma ordem de opções da questão anterior quando as opções forem as mesmas.
+Em sets curtos (3–4), pelo menos 2 formatos. Formato único só se ele pedir.
 
-**Legibilidade das alternativas:** cada alternativa (A, B, C…) e cada item de associação vai em **item de lista próprio** (`- **A.** texto`), nunca como linhas soltas: no Markdown, linhas consecutivas sem marcador se juntam em um parágrafo só. Vale para todos os formatos, principalmente quando as alternativas são frases longas.
+**Legibilidade das alternativas:** cada A/B/C… e cada item de associação em **item de lista próprio** (`- **A.** texto`), nunca linhas soltas.
 
-Para calibrar com a prova real, lembre que a Microsoft oferece uma **avaliação prática gratuita** oficial na página da certificação; recomende-a quando ele perguntar sobre o nível real.
+Para calibrar com a prova real: a Microsoft oferece avaliação prática gratuita na página da certificação; recomende quando ele perguntar.
+
+## Variabilidade e anti-padrões (obrigatório antes de entregar)
+
+Não sacrifique qualidade do conteúdo — só a **posição** das certas e o **padrão** de Sim/Não.
+
+### Sim/Não (3 afirmações)
+
+- **Proibido** como padrão default: `S/N/S` (foi o padrão repetido demais).
+- Conte Sim e Não: não deixe quase sempre 2 Sim + 1 Não. Alterne quantidades: 2N+1S, 2S+1N, 3S, 3N (raro), ou 1S+2N.
+- Embaralhe a **ordem** das afirmações (a verdadeira/falsa não fica sempre no meio).
+- Antes de enviar, escreva o gabarito do bloco (ex. `N/N/S`). Se for `S/N/S` e a rodada anterior também foi, **remisture** afirmações ou reescreva uma.
+- Exemplos válidos: `N/S/N`, `S/S/N`, `N/N/S`, `S/N/N`, `N/S/S`, `S/S/S` (só se as três forem realmente verdadeiras).
+
+### Escolha única e completar
+
+- Espalhe A/B/C/D: em set de 5+, **pelo menos 3 letras diferentes** nas respostas certas.
+- Não deixe a correta “sempre no meio” (B/C). Embaralhe de propósito.
+- Se 4+ itens de escolha única/completar caírem nas mesmas 2 letras, remisture.
+
+### Múltipla escolha (“escolha duas/três”)
+
+- **Proibido** como default: gabarito sempre `A,B` / `AB`.
+- Varie pares/trios: `A,C`, `B,D`, `C,E`, `A,D`, `B,C`, `A,B,D`, `B,C,E`, etc.
+- As opções corretas devem ser as que o conteúdo exige; se o conteúdo der AB, **troque a ordem das alternativas** (embaralhe A–E) para o gabarito deixar de ser AB, sem mudar o que está certo.
+- No enunciado: “Escolha duas” / “Escolha três” — nunca “escolha todas” sem número, salvo o Learn exigir.
+
+### Associação
+
+- Cada opção uma vez (salvo aviso). Ordem das opções **≠** ordem dos cenários (nada de 1A, 2B, 3C, 4D).
+- Embaralhe o gabarito entre rodadas (não sempre 1C,2A,3D,4B).
+
+### Checklist rápido (mental, antes de enviar)
+
+1. Rótulos: escolha única vs múltipla escolha corretos?
+2. Sim/Não ≠ `S/N/S` se a última rodada já foi isso?
+3. Múltipla escolha ≠ sempre `AB`?
+4. Letras das escolhas únicas espalhadas?
+5. Distratores ainda vizinhos e corretos no Learn?
 
 ## Formato
 
@@ -153,11 +191,11 @@ Para cada questão:
 
 Depois de corrigir as respostas dele, registre a rodada em `az-900/progresso/`:
 
-1. **`questoes.csv`:** acrescente ao final uma linha por **item pontuável** (cada afirmação de Sim/Não, cada par de associação, cada questão de múltipla escolha, completar ou múltipla seleção). Colunas:
+1. **`questoes.csv`:** acrescente ao final uma linha por **item pontuável** (cada afirmação de Sim/Não, cada par de associação, cada escolha única, completar ou múltipla escolha). Colunas:
    - `data` (AAAA-MM-DD) e `sessao` (`S01`, `S02`…; uma sessão por dia, continuando a numeração de `sessoes.md`)
    - `requisito`: ID do item do checklist em `az-900/README.md`, numerado por domínio na ordem do arquivo (`N01`–`N15` nuvem, `A01`–`A27` arquitetura, `G01`–`G15` governança)
    - `tema`: conceito curto e **estável** (reuse o mesmo texto de rodadas anteriores para o mesmo conceito, para o painel detectar recuperação)
-   - `formato`: `multipla-escolha`, `sim-nao`, `completar`, `associacao` ou `multipla-selecao`
+   - `formato`: `multipla-escolha` (= escolha única no chat), `sim-nao`, `completar`, `associacao` ou `multipla-selecao` (= múltipla escolha no chat). **Não renomeie** os códigos do CSV — o painel histórico depende deles.
    - `nivel`: `essencial` ou `detalhe`
    - `resultado`: `certo` ou `errado`
    - `confianca`: `C`, `D`, `X` ou `?` (não informada)
@@ -167,13 +205,3 @@ Depois de corrigir as respostas dele, registre a rodada em `az-900/progresso/`:
 3. Rode `python3 az-900/progresso/painel.py` e cite em uma linha a mudança relevante (projeção, tema que entrou ou saiu da lista de revisão).
 
 Registre também em `sessoes.md` os temas estudados por resumo, mesmo sem quiz.
-
-## Distribuição das letras corretas
-
-Espalhe as respostas certas entre **A, B, C e D**. Em um set de 5 questões, use **pelo menos 3 letras diferentes**; evite concentrar quase tudo em só duas (ex.: só B/C).
-
-1. Escreva a resposta certa e 3 distratores.
-2. **Embaralhe** a posição da certa — não deixe a correta “no meio” por padrão.
-3. Antes de entregar, confira o gabarito: se 4+ questões caírem nas mesmas 2 letras, remisture.
-
-Não sacrifique qualidade do enunciado/distratores por causa da letra.

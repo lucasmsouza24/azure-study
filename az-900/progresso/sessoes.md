@@ -54,13 +54,24 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Quiz de redundância (2ª rodada):** 13 de 14. Errou com certeza que RA- só permite leitura na secundária (não gravação). Acertou com dúvida a questão de "menor custo", por achar que o custo poderia prevalecer sobre um requisito.
 - **Próximo:** opções de conta de armazenamento e tipos de armazenamento.
 
+## S13 — 16/10/2026
+
+- **Estudado:** defesa em profundidade (camadas física → dados; propósito de não depender de uma só barreira).
+- **Quiz:** 11 de 11 no tema + 2/2 bônus (confiabilidade; recursos de VM), tudo com certeza.
+- **Decisão:** skill de questões — rótulo “escolha única” (1 certa) vs “múltipla escolha” (várias); anti-padrão S/N/S e AB repetidos.
+- **Próximo:** Microsoft Defender para Nuvem (A27) — ou criptografia/Key Vault se for pela ordem do módulo Learn.
+
 ## S12 — 15/10/2026
 
 - **Revisão de RBAC:** 11 de 11, tudo com certeza (herança, modelo aditivo, privilégio mínimo, Colaborador vs Proprietário, app fora do RBAC).
 - **Bônus:** casos de uso do acesso condicional recuperados (aplicativos cliente aprovados).
 - **Revisão de acesso condicional:** 11 de 11 no tema + 1/1 bônus RBAC. Casos de uso firmes. Quase marcou Resource Manager como imposição do acesso condicional (acertou AC com dúvida) — gap: CA é Entra; ARM impõe RBAC.
 - **Decisão:** bônus de revisão passa a priorizar temas frágeis/antigos (repetição espaçada), nunca o mesmo tema da rodada principal.
-- **Próximo:** Confiança Zero (A25); bônus futuros = nuvem antiga ou rede (A12).
+- **Revisão de identidades externas:** 11 de 13 no tema + 2/2 bônus. Erros no Sim/Não: conexão direta B2B não cria guest no diretório; ID Externa para clientes é para apps próprios (não negar essa afirmação).
+- **Drill B2B vs direct connect vs ID Externa:** 6 de 6, tudo com certeza (gap fechado).
+- **Estudado:** Confiança Zero (verificar explicitamente, privilégio mínimo, assumir violação; perímetro vs Zero Trust).
+- **Quiz de Confiança Zero:** 11 de 11 no tema + 2/2 bônus (Functions; datacenter), tudo com certeza.
+- **Próximo:** defesa em profundidade (A26).
 
 ## S11 — 14/10/2026
 

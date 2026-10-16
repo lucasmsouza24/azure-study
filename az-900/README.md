@@ -71,8 +71,8 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 - [x] Descrever identidades externas no Azure
 - [x] Descrever o acesso condicional do Microsoft Entra
 - [x] Descrever o RBAC (controle de acesso baseado em função) do Azure
-- [ ] Descrever o conceito de Confiança Zero
-- [ ] Descrever a finalidade do modelo de defesa em profundidade
+- [x] Descrever o conceito de Confiança Zero
+- [x] Descrever a finalidade do modelo de defesa em profundidade
 - [ ] Descrever a finalidade do Microsoft Defender para Nuvem
 
 ## Descrever o gerenciamento e a governança do Azure (30 a 35%)

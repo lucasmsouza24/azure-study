@@ -393,3 +393,48 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-15,S12,A23,acesso condicional vs Resource Manager,multipla-selecao,essencial,certo,D,,quase marcou ARM; CA é Entra não Resource Manager
 2026-10-15,S12,A23,acesso condicional vs MFA,multipla-escolha,essencial,certo,C,,CA quando; MFA como
 2026-10-15,S12,A24,funções internas,multipla-escolha,essencial,certo,C,,Colaborador não concede acesso
+2026-10-15,S12,A22,ID Externa para clientes,multipla-escolha,essencial,certo,C,,app próprio não apps Microsoft
+2026-10-15,S12,A22,colaboração B2B,sim-nao,essencial,certo,C,,convidados no diretório
+2026-10-15,S12,A22,conexão direta B2B,sim-nao,essencial,errado,C,conteudo,achou que direct connect cria guest no diretório
+2026-10-15,S12,A22,ID Externa para clientes,sim-nao,essencial,errado,C,pegadinha,negou afirmação verdadeira sobre apps próprios vs Microsoft
+2026-10-15,S12,A22,autenticação externa e autorização,completar,essencial,certo,C,,
+2026-10-15,S12,A22,colaboração B2B,associacao,essencial,certo,C,,SharePoint parceiro
+2026-10-15,S12,A22,conexão direta B2B,associacao,essencial,certo,C,,Teams canal compartilhado
+2026-10-15,S12,A22,ID Externa para clientes,associacao,essencial,certo,C,,e-commerce
+2026-10-15,S12,A22,revisões de acesso,associacao,essencial,certo,C,,trimestral convidados
+2026-10-15,S12,A22,colaboração B2B,multipla-selecao,essencial,certo,C,,home tenant e CA em guests
+2026-10-15,S12,A22,revisões de acesso,multipla-escolha,essencial,certo,C,,
+2026-10-15,S12,N08,escalabilidade,multipla-escolha,essencial,certo,C,,Black Friday escala
+2026-10-15,S12,A12,VPN site a site,multipla-escolha,essencial,certo,C,,vários escritórios à VNet
+2026-10-15,S12,A22,conexão direta B2B,multipla-escolha,essencial,certo,C,,Teams sem guest no diretório
+2026-10-15,S12,A22,colaboração B2B,sim-nao,essencial,certo,C,,guest no diretório
+2026-10-15,S12,A22,conexão direta B2B,sim-nao,essencial,certo,C,,direct connect não é guest no diretório
+2026-10-15,S12,A22,ID Externa para clientes,sim-nao,essencial,certo,C,,app próprio não apps Microsoft
+2026-10-15,S12,A22,colaboração B2B vs conexão direta B2B,multipla-escolha,essencial,certo,C,,B2B guest direct connect não
+2026-10-15,S12,A22,ID Externa para clientes,completar,essencial,certo,C,,clientes finais app loja
+2026-10-15,S12,A25,definição Confiança Zero,multipla-escolha,essencial,certo,C,,pressupõe violação
+2026-10-15,S12,A25,perímetro vs Confiança Zero,sim-nao,essencial,certo,C,,rede interna era confiável
+2026-10-15,S12,A25,perímetro vs Confiança Zero,sim-nao,essencial,certo,C,,acesso não é só por localização
+2026-10-15,S12,A25,verificar explicitamente,sim-nao,essencial,certo,C,,autenticar e autorizar com todos os sinais
+2026-10-15,S12,A25,privilégio mínimo,completar,essencial,certo,C,,JIT JEA
+2026-10-15,S12,A25,assumir violação,associacao,essencial,certo,C,,segmentar e analisar
+2026-10-15,S12,A25,verificar explicitamente,associacao,essencial,certo,C,,MFA e dispositivo
+2026-10-15,S12,A25,privilégio mínimo,associacao,essencial,certo,C,,Leitor JIT
+2026-10-15,S12,A25,perímetro vs Confiança Zero,associacao,essencial,certo,C,,confiança só por Wi-Fi
+2026-10-15,S12,A25,princípios Confiança Zero,multipla-selecao,essencial,certo,C,,sinais e criptografia segmentação
+2026-10-15,S12,A25,acesso contextual,multipla-escolha,essencial,certo,C,,café notebook pessoal
+2026-10-15,S12,N07,computação sem servidor,multipla-escolha,essencial,certo,C,,Functions
+2026-10-15,S12,A03,datacenters,multipla-escolha,essencial,certo,C,,instalação física
+2026-10-16,S13,A26,finalidade defesa em profundidade,multipla-escolha,essencial,certo,C,,camadas se uma falhar
+2026-10-16,S13,A26,camada de dados no centro,sim-nao,essencial,certo,C,,
+2026-10-16,S13,A26,camadas em série,sim-nao,essencial,certo,C,,não depende de uma só
+2026-10-16,S13,A26,camada física,sim-nao,essencial,certo,C,,Microsoft no datacenter
+2026-10-16,S13,A26,camada de perímetro,completar,essencial,certo,C,,DDoS e firewall de borda
+2026-10-16,S13,A26,camada identidade e acesso,associacao,essencial,certo,C,,SSO MFA auditoria
+2026-10-16,S13,A26,camada de rede,associacao,essencial,certo,C,,negar por padrão
+2026-10-16,S13,A26,camada de computação,associacao,essencial,certo,C,,patches e endpoint
+2026-10-16,S13,A26,camada de dados,associacao,essencial,certo,C,,criptografia
+2026-10-16,S13,A26,Key Vault e camadas,multipla-selecao,essencial,certo,C,,não depende de uma camada
+2026-10-16,S13,A26,Confiança Zero vs defesa em profundidade,multipla-escolha,essencial,certo,C,,
+2026-10-16,S13,N09,confiabilidade,multipla-escolha,essencial,certo,C,,SLA e recuperação
+2026-10-16,S13,A10,recursos necessários para VMs,multipla-escolha,essencial,certo,C,,disco NIC IP

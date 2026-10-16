@@ -6,18 +6,18 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 394 |
-| Sessões | 12 |
-| Acerto geral | 93% |
-| Acerto firme (certo com certeza, entre itens com confiança informada) | 87% |
-| Erros com certeza (falsa certeza) | 13 |
+| Itens respondidos | 439 |
+| Sessões | 13 |
+| Acerto geral | 94% |
+| Acerto firme (certo com certeza, entre itens com confiança informada) | 88% |
+| Erros com certeza (falsa certeza) | 15 |
 
 ## Projeção
 
 | Cenário | Acerto ponderado |
 | --- | --- |
 | Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 63% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 66% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -25,8 +25,8 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
-| Descrever os conceitos da nuvem | 27.5% | 10/15 | 16 | 100% | 94% de 16 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 24/27 | 378 | 93% | 87% de 351 |
+| Descrever os conceitos da nuvem | 27.5% | 10/15 | 19 | 100% | 95% de 19 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 420 | 93% | 88% de 393 |
 | Descrever o gerenciamento e a governança do Azure | 32.5% | 0/15 | 0 | — | — |
 
 ## Por requisito
@@ -37,24 +37,24 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | N03 | Definir os modelos de nuvem, incluindo público, privado e híbrido | 2 | 100% | 50% de 2 | 2026-10-12 |
 | N04 | Identificar os casos de uso apropriados para cada modelo de nuvem | 2 | 100% | 100% de 2 | 2026-10-12 |
 | N05 | Descrever o modelo baseado em consumo | 3 | 100% | 100% de 3 | 2026-10-12 |
-| N07 | Descrever a computação sem servidor | 1 | 100% | 100% de 1 | 2026-10-06 |
-| N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 1 | 100% | 100% de 1 | 2026-10-06 |
-| N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 1 | 100% | 100% de 1 | 2026-10-06 |
+| N07 | Descrever a computação sem servidor | 2 | 100% | 100% de 2 | 2026-10-15 |
+| N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 2 | 100% | 100% de 2 | 2026-10-15 |
+| N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 2 | 100% | 100% de 2 | 2026-10-16 |
 | N10 | Descrever os benefícios da segurança e da governança na nuvem | 1 | 100% | 100% de 1 | 2026-10-06 |
 | N13 | Descrever plataforma como serviço (PaaS) | 1 | 100% | 100% de 1 | 2026-10-12 |
 | N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 2 | 100% | 100% de 2 | 2026-10-12 |
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 5 | 80% | 60% de 5 | 2026-10-12 |
 | A02 | Descrever as zonas de disponibilidade | 3 | 100% | 100% de 3 | 2026-10-12 |
-| A03 | Descrever os datacenters do Azure | 1 | 100% | 100% de 1 | 2026-10-06 |
+| A03 | Descrever os datacenters do Azure | 2 | 100% | 100% de 2 | 2026-10-15 |
 | A04 | Descrever os recursos e os grupos de recursos do Azure | 2 | 100% | 100% de 2 | 2026-10-12 |
 | A05 | Descrever assinaturas | 3 | 100% | 67% de 3 | 2026-10-12 |
 | A06 | Descrever grupos de gerenciamento | 2 | 100% | 100% de 2 | 2026-10-12 |
 | A07 | Descrever a hierarquia de grupos de recursos, assinaturas e grupos de gerenciamento | 3 | 100% | 100% de 3 | 2026-10-14 |
 | A08 | Comparar tipos de computação, incluindo contêineres, máquinas virtuais e funções | 8 | 88% | 88% de 8 | 2026-10-12 |
 | A09 | Descrever opções de máquina virtual, incluindo Máquinas Virtuais do Azure, Conjuntos de Dimensionamento de Máquinas Virtuais do Azure, conjuntos de disponibilidade, Área de Trabalho Virtual do Azure | 13 | 90% | 77% de 13 | 2026-10-12 |
-| A10 | Descrever os recursos necessários para máquinas virtuais | 1 | 100% | 100% de 1 | 2026-10-06 |
+| A10 | Descrever os recursos necessários para máquinas virtuais | 2 | 100% | 100% de 2 | 2026-10-16 |
 | A11 | Descrever as opções de hospedagem de aplicativos, incluindo Aplicativos Web, contêineres e máquinas virtuais | 8 | 100% | 100% de 3 | 2026-10-12 |
-| A12 | Descreva a rede virtual, incluindo a finalidade das redes virtuais do Azure, sub-redes, emparelhamento, DNS do Azure, Gateway de VPN do Azure e ExpressRoute | 39 | 100% | 72% de 29 | 2026-10-12 |
+| A12 | Descreva a rede virtual, incluindo a finalidade das redes virtuais do Azure, sub-redes, emparelhamento, DNS do Azure, Gateway de VPN do Azure e ExpressRoute | 40 | 100% | 73% de 30 | 2026-10-15 |
 | A13 | Definir endpoints públicos e privados | 6 | 100% | 100% de 6 | 2026-10-12 |
 | A14 | Comparar os serviços do Armazenamento do Microsoft Azure | 8 | 100% | 100% de 8 | 2026-10-12 |
 | A15 | Descrever os níveis de armazenamento | 22 | 90% | 90% de 10 | 2026-10-12 |
@@ -64,9 +64,11 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A19 | Descrever as opções de migração, incluindo as Migrações para Azure e o Azure Data Box | 21 | 80% | 90% de 21 | 2026-10-14 |
 | A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 68 | 90% | 82% de 68 | 2026-10-14 |
 | A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 15 | 100% | 93% de 15 | 2026-10-14 |
-| A22 | Descrever identidades externas no Azure | 12 | 90% | 75% de 12 | 2026-10-14 |
+| A22 | Descrever identidades externas no Azure | 29 | 100% | 83% de 29 | 2026-10-15 |
 | A23 | Descrever o acesso condicional do Microsoft Entra | 24 | 100% | 83% de 24 | 2026-10-15 |
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
+| A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
+| A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -74,24 +76,24 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 149 | 93% |
-| Sim/Não | 99 | 91% |
-| Completar a frase | 26 | 92% |
-| Associação | 94 | 96% |
-| Múltipla seleção | 26 | 96% |
+| Múltipla escolha | 163 | 94% |
+| Sim/Não | 111 | 90% |
+| Completar a frase | 30 | 93% |
+| Associação | 106 | 96% |
+| Múltipla seleção | 29 | 97% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 357 | 93% |
+| Essencial | 402 | 94% |
 | Detalhe do Learn | 37 | 95% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 334 | 96% |
+| Certeza | 379 | 96% |
 | Dúvida | 28 | 68% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
@@ -100,9 +102,9 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Tipo | Erros |
 | --- | --- |
-| Conteúdo (não sabia) | 15 |
+| Conteúdo (não sabia) | 16 |
 | Distração (sabia, mas leu ou marcou errado) | 5 |
-| Pegadinha (caiu no distrator vizinho) | 4 |
+| Pegadinha (caiu no distrator vizinho) | 5 |
 | Nomenclatura (confundiu nomes) | 2 |
 
 ## Temas a revisar (última tentativa errada)
@@ -125,7 +127,7 @@ Nenhum.
 | A09 | domínios de atualização e de falha | 2026-10-12 | atualização |
 | A12 | DNS do Azure | 2026-10-07 | não compra domínio |
 | A12 | VPN como failover do ExpressRoute | 2026-10-12 | — |
-| A12 | VPN site a site | 2026-10-07 | — |
+| A12 | VPN site a site | 2026-10-15 | vários escritórios à VNet |
 | A12 | gateway de VPN | 2026-10-12 | — |
 | A12 | gateway de VPN multissite | 2026-10-12 | um gateway vários locais |
 | A15 | camadas de acesso | 2026-10-12 | fria 90 dias |
@@ -138,5 +140,6 @@ Nenhum.
 | A20 | Proxy de Aplicativo | 2026-10-13 | — |
 | A20 | papel do Entra Connect | 2026-10-13 | — |
 | A20 | sincronização do Domain Services | 2026-10-13 | sem AD local |
-| A22 | ID Externa para clientes | 2026-10-14 | consumidores do próprio app |
+| A22 | ID Externa para clientes | 2026-10-15 | clientes finais app loja |
+| A22 | conexão direta B2B | 2026-10-15 | direct connect não é guest no diretório |
 | A23 | casos de uso | 2026-10-15 | MFA por função ou local |
