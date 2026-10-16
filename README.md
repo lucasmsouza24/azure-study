@@ -9,6 +9,7 @@ Histórico de estudo e workspace do Cursor. As anotações ficam no Notion; este
 
 ## Progresso
 
+
 - [Painel](./az-900/progresso/PAINEL.md) — acertos, temas a revisar, projeção
 - [Diário de sessões](./az-900/progresso/sessoes.md)
 - `az-900/progresso/questoes.csv` — cada item respondido

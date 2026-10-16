@@ -59,7 +59,9 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Estudado:** defesa em profundidade (camadas física → dados; propósito de não depender de uma só barreira).
 - **Quiz:** 11 de 11 no tema + 2/2 bônus (confiabilidade; recursos de VM), tudo com certeza.
 - **Decisão:** skill de questões — rótulo “escolha única” (1 certa) vs “múltipla escolha” (várias); anti-padrão S/N/S e AB repetidos.
-- **Próximo:** Microsoft Defender para Nuvem (A27) — ou criptografia/Key Vault se for pela ordem do módulo Learn.
+- **Resumo (sem quiz):** Microsoft Defender para Nuvem — postura CSPM, Avaliar/Proteger/Defender, Azure + híbrido (Arc) + multinuvem; quiz quando voltar.
+- **Resumos (sem quiz):** custos G01–G04 (fatores, calculadora de preços, Cost Management, tags) e governança G05–G07 (Purview, Azure Policy, bloqueios de recursos).
+- **Próximo:** quizzes de A27 e depois G01–G07 quando estiver em casa.
 
 ## S12 — 15/10/2026
 
