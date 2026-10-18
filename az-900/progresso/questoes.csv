@@ -438,3 +438,28 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-16,S13,A26,Confiança Zero vs defesa em profundidade,multipla-escolha,essencial,certo,C,,
 2026-10-16,S13,N09,confiabilidade,multipla-escolha,essencial,certo,C,,SLA e recuperação
 2026-10-16,S13,A10,recursos necessários para VMs,multipla-escolha,essencial,certo,C,,disco NIC IP
+2026-10-18,S15,G01,reserva para recurso fixo,multipla-escolha,essencial,errado,C,pegadinha,marcou plano de economia com VM fixa por 3 anos
+2026-10-18,S15,G01,zona de cobrança vs zona de disponibilidade,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G01,preço por região,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G01,transferência de dados,sim-nao,essencial,certo,C,,saída é cobrada
+2026-10-18,S15,G01,manutenção e recursos órfãos,completar,essencial,certo,C,,disco e NIC após excluir VM
+2026-10-18,S15,G01,VMs spot,associacao,essencial,certo,C,,lote interrompível
+2026-10-18,S15,G01,reservas vs plano de economia,associacao,essencial,certo,C,,plano de economia troca tipo de VM
+2026-10-18,S15,G01,Azure Marketplace,associacao,essencial,certo,C,,cobrança do fornecedor
+2026-10-18,S15,G01,tipo de assinatura,associacao,essencial,certo,C,,crédito 30 dias e 12 meses grátis
+2026-10-18,S15,G01,fatores de custo de VM,multipla-selecao,essencial,certo,C,,licença e núcleos
+2026-10-18,S15,G01,transferência de dados,multipla-escolha,detalhe,certo,C,,saída entre zonas de cobrança
+2026-10-18,S15,A23,acesso condicional vs Resource Manager,multipla-escolha,essencial,certo,C,,CA no Entra e RBAC no ARM
+2026-10-18,S15,A12,emparelhamento,multipla-escolha,essencial,certo,C,,erro do simulado recuperado
+2026-10-18,S15,G02,calculadora antes de implantar,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,G02,estimativa sem provisionar,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G02,estimativa não é fatura,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G02,calculadora vs Cost Management vs Advisor,associacao,essencial,certo,C,,estimar antes
+2026-10-18,S15,G02,calculadora vs Cost Management vs Advisor,associacao,essencial,certo,C,,gasto do mês passado
+2026-10-18,S15,G02,calculadora vs Cost Management vs Advisor,associacao,essencial,certo,C,,recomendações de custo
+2026-10-18,S15,G02,formas de estimativa,multipla-selecao,essencial,certo,C,,recurso individual e cenário de exemplo
+2026-10-18,S15,G02,estimativa como base de orçamento,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,G02,opções de armazenamento na calculadora,sim-nao,essencial,errado,D,nomenclatura,leu camada de acesso como permissão e não como access tier
+2026-10-18,S15,G02,calculadora de TCO desativada,completar,detalhe,errado,C,distracao,marcou preços em vez de TCO
+2026-10-18,S15,N10,segurança e governança na nuvem,multipla-escolha,essencial,certo,D,,dúvida sobre DDoS
+2026-10-18,S15,N15,rede virtual é IaaS,multipla-escolha,essencial,certo,C,,erro do simulado recuperado

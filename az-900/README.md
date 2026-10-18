@@ -79,8 +79,8 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 
 ### Descrever o gerenciamento de custos no Azure
 
-- [ ] Descrever fatores que podem afetar os custos no Azure
-- [ ] Explorar a calculadora de preços
+- [x] Descrever fatores que podem afetar os custos no Azure
+- [x] Explorar a calculadora de preços
 - [ ] Descrever as funcionalidades de gerenciamento de custos do Azure
 - [ ] Descreva a finalidade das tags
 

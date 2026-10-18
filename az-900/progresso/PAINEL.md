@@ -6,18 +6,18 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 439 |
-| Sessões | 13 |
-| Acerto geral | 94% |
+| Itens respondidos | 464 |
+| Sessões | 14 |
+| Acerto geral | 93% |
 | Acerto firme (certo com certeza, entre itens com confiança informada) | 88% |
-| Erros com certeza (falsa certeza) | 15 |
+| Erros com certeza (falsa certeza) | 17 |
 
 ## Projeção
 
 | Cenário | Acerto ponderado |
 | --- | --- |
-| Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 66% |
+| Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 95% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 68% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -25,9 +25,9 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
-| Descrever os conceitos da nuvem | 27.5% | 10/15 | 19 | 100% | 95% de 19 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 420 | 93% | 88% de 393 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 0/15 | 0 | — | — |
+| Descrever os conceitos da nuvem | 27.5% | 10/15 | 21 | 100% | 90% de 21 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 422 | 93% | 88% de 395 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 2/15 | 21 | 86% | 86% de 21 |
 
 ## Por requisito
 
@@ -40,9 +40,9 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | N07 | Descrever a computação sem servidor | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 2 | 100% | 100% de 2 | 2026-10-16 |
-| N10 | Descrever os benefícios da segurança e da governança na nuvem | 1 | 100% | 100% de 1 | 2026-10-06 |
+| N10 | Descrever os benefícios da segurança e da governança na nuvem | 2 | 100% | 50% de 2 | 2026-10-18 |
 | N13 | Descrever plataforma como serviço (PaaS) | 1 | 100% | 100% de 1 | 2026-10-12 |
-| N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 2 | 100% | 100% de 2 | 2026-10-12 |
+| N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 3 | 100% | 100% de 3 | 2026-10-18 |
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 5 | 80% | 60% de 5 | 2026-10-12 |
 | A02 | Descrever as zonas de disponibilidade | 3 | 100% | 100% de 3 | 2026-10-12 |
 | A03 | Descrever os datacenters do Azure | 2 | 100% | 100% de 2 | 2026-10-15 |
@@ -54,7 +54,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A09 | Descrever opções de máquina virtual, incluindo Máquinas Virtuais do Azure, Conjuntos de Dimensionamento de Máquinas Virtuais do Azure, conjuntos de disponibilidade, Área de Trabalho Virtual do Azure | 13 | 90% | 77% de 13 | 2026-10-12 |
 | A10 | Descrever os recursos necessários para máquinas virtuais | 2 | 100% | 100% de 2 | 2026-10-16 |
 | A11 | Descrever as opções de hospedagem de aplicativos, incluindo Aplicativos Web, contêineres e máquinas virtuais | 8 | 100% | 100% de 3 | 2026-10-12 |
-| A12 | Descreva a rede virtual, incluindo a finalidade das redes virtuais do Azure, sub-redes, emparelhamento, DNS do Azure, Gateway de VPN do Azure e ExpressRoute | 40 | 100% | 73% de 30 | 2026-10-15 |
+| A12 | Descreva a rede virtual, incluindo a finalidade das redes virtuais do Azure, sub-redes, emparelhamento, DNS do Azure, Gateway de VPN do Azure e ExpressRoute | 41 | 100% | 74% de 31 | 2026-10-18 |
 | A13 | Definir endpoints públicos e privados | 6 | 100% | 100% de 6 | 2026-10-12 |
 | A14 | Comparar os serviços do Armazenamento do Microsoft Azure | 8 | 100% | 100% de 8 | 2026-10-12 |
 | A15 | Descrever os níveis de armazenamento | 22 | 90% | 90% de 10 | 2026-10-12 |
@@ -65,10 +65,12 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 68 | 90% | 82% de 68 | 2026-10-14 |
 | A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 15 | 100% | 93% de 15 | 2026-10-14 |
 | A22 | Descrever identidades externas no Azure | 29 | 100% | 83% de 29 | 2026-10-15 |
-| A23 | Descrever o acesso condicional do Microsoft Entra | 24 | 100% | 83% de 24 | 2026-10-15 |
+| A23 | Descrever o acesso condicional do Microsoft Entra | 25 | 100% | 84% de 25 | 2026-10-18 |
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
 | A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
 | A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
+| G01 | Descrever fatores que podem afetar os custos no Azure | 11 | 100% | 91% de 11 | 2026-10-18 |
+| G02 | Explorar a calculadora de preços | 10 | 80% | 80% de 10 | 2026-10-18 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -76,25 +78,25 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 163 | 94% |
-| Sim/Não | 111 | 90% |
-| Completar a frase | 30 | 93% |
-| Associação | 106 | 96% |
-| Múltipla seleção | 29 | 97% |
+| Múltipla escolha | 171 | 94% |
+| Sim/Não | 117 | 90% |
+| Completar a frase | 32 | 91% |
+| Associação | 113 | 96% |
+| Múltipla seleção | 31 | 97% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 402 | 94% |
-| Detalhe do Learn | 37 | 95% |
+| Essencial | 425 | 93% |
+| Detalhe do Learn | 39 | 92% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 379 | 96% |
-| Dúvida | 28 | 68% |
+| Certeza | 402 | 96% |
+| Dúvida | 30 | 67% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
 
@@ -103,19 +105,23 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 | Tipo | Erros |
 | --- | --- |
 | Conteúdo (não sabia) | 16 |
-| Distração (sabia, mas leu ou marcou errado) | 5 |
-| Pegadinha (caiu no distrator vizinho) | 5 |
-| Nomenclatura (confundiu nomes) | 2 |
+| Distração (sabia, mas leu ou marcou errado) | 6 |
+| Pegadinha (caiu no distrator vizinho) | 6 |
+| Nomenclatura (confundiu nomes) | 3 |
 
 ## Temas a revisar (última tentativa errada)
 
-Nenhum.
+| Requisito | Tema | Última vez | Observação |
+| --- | --- | --- | --- |
+| G01 | reserva para recurso fixo | 2026-10-18 | marcou plano de economia com VM fixa por 3 anos |
+| G02 | calculadora de TCO desativada | 2026-10-18 | marcou preços em vez de TCO |
+| G02 | opções de armazenamento na calculadora | 2026-10-18 | leu camada de acesso como permissão e não como access tier |
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
 | Requisito | Tema | Última vez | Observação |
 | --- | --- | --- | --- |
-| A23 | acesso condicional vs Resource Manager | 2026-10-15 | quase marcou ARM; CA é Entra não Resource Manager |
+| N10 | segurança e governança na nuvem | 2026-10-18 | dúvida sobre DDoS |
 
 ## Temas recuperados (já errou, mas acertou depois)
 

@@ -54,6 +54,22 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Quiz de redundância (2ª rodada):** 13 de 14. Errou com certeza que RA- só permite leitura na secundária (não gravação). Acertou com dúvida a questão de "menor custo", por achar que o custo poderia prevalecer sobre um requisito.
 - **Próximo:** opções de conta de armazenamento e tipos de armazenamento.
 
+## S15 — 18/10/2026
+
+- **Quiz de fatores de custo (G01):** 10 de 11 + 2/2 bônus, tudo com certeza. Errou reserva vs plano de economia na escolha única (VM fixa por 3 anos é reserva), mas acertou o mesmo contraste na associação.
+- **Bônus:** acesso condicional vs Resource Manager firmou; emparelhamento (erro do simulado) recuperado.
+- **Estudado:** calculadora de preços (G02): estimativa antes de implantar, nada é provisionado, calculadora de TCO desativada.
+- **Quiz da calculadora de preços (G02):** 8 de 10 + 2/2 bônus. Errou com dúvida a camada de acesso na estimativa por nomenclatura (leu "camada de acesso" como permissão, não como access tier) e marcou "preços" em vez de TCO por desatenção.
+- **Bônus:** rede virtual é IaaS (erro do simulado) recuperado; segurança e governança na nuvem certo com dúvida sobre DDoS.
+- **Próximo:** Cost Management (G03).
+
+## S14 — 17/10/2026
+
+- **Decisão:** Defender para Nuvem (A27) adiado; volta depois de ter mais base (governança e ferramentas).
+- **Estudado:** fatores que afetam custos no Azure (tipo de recurso, consumo, manutenção, geografia, tipo de assinatura, Marketplace; reservas, plano de economia, Spot).
+- **Avaliação prática oficial da Microsoft (madrugada de 18/10):** 86% (43 de 50) em 19 minutos. Nuvem 13/14, arquitetura 18/19, governança 12/17. Erros: VNet é IaaS (marcou PaaS); emparelhamento (marcou endereços de serviço); bloqueio vs tag; escopo de bloqueio (marcou grupo de gerenciamento); Cloud Shell no Android (marcou SSH); Assistente do Azure vs Azure Monitor; Azure Monitor vs Integridade do Serviço.
+- **Próximo:** quiz de fatores de custo (G01); quizzes de bloqueios/Policy; depois ferramentas e monitoramento (G08–G15).
+
 ## S13 — 16/10/2026
 
 - **Estudado:** defesa em profundidade (camadas física → dados; propósito de não depender de uma só barreira).
