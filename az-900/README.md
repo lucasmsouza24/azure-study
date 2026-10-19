@@ -92,8 +92,8 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 
 ### Descrever recursos e ferramentas para gerenciar e implantar recursos do Azure
 
-- [ ] Descrever o portal do Azure
-- [ ] Descrever Azure Cloud Shell, CLI do Azure e Azure PowerShell
+- [x] Descrever o portal do Azure
+- [x] Descrever Azure Cloud Shell, CLI do Azure e Azure PowerShell
 - [ ] Descrever a finalidade do Azure Arc
 - [ ] Descrever infraestrutura como código (IaC)
 - [ ] Descrever o ARM (Azure Resource Manager) e os modelos do ARM

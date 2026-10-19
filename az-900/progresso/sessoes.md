@@ -76,7 +76,11 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Bônus:** 1 de 2. Errou de novo os casos de uso do acesso condicional por interpretação do enunciado: marcou aplicativos aprovados para "notebooks registrados e em conformidade" (é dispositivos gerenciados). Quarto erro no tema, a maioria de leitura (app vs dispositivo).
 - **Estudado:** bloqueios de recursos (G07): CanNotDelete vs ReadOnly, escopos (recurso, RG, assinatura) e herança, valem independentemente do RBAC, remover antes de alterar.
 - **Quiz de bloqueios de recursos (G07):** 11 de 11 + 2/2 bônus, tudo com certeza. Os dois erros do simulado (tag para impedir exclusão; bloqueio em grupo de gerenciamento) recuperados. Casos de uso do acesso condicional recuperados com app e dispositivo no mesmo enunciado. Bloco G05–G07 fechado.
-- **Próximo:** ferramentas de gerenciamento e implantação (G08–G12), começando pelo portal do Azure.
+- **Estudado:** portal do Azure (G08): console web gráfico, dashboards, acessibilidade, presença em todos os datacenters, sem tempo de inatividade para manutenção; Copilot no Azure como assistente.
+- **Quiz do portal do Azure (G08):** 10 de 10 + 2/2 bônus (assinaturas; tempo real vs assíncrona), tudo com certeza. Portal + Cloud Shell no Android (erro do simulado) recuperado.
+- **Cloud Shell, CLI e PowerShell (G09):** revisão rápida a partir do simulado e da unidade do portal; quiz curto 7 de 7 + 1/1 bônus (nuvem pública), tudo com certeza.
+- **Estudado:** Azure Arc (G10): estende o Resource Manager, a conformidade e o monitoramento a recursos fora do Azure (local e outras nuvens); servidores, Kubernetes, serviços de dados, SQL Server, VMs (prévia).
+- **Próximo:** quiz de Azure Arc.
 
 ## S14 — 17/10/2026
 

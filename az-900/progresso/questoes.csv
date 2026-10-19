@@ -555,3 +555,23 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-18,S15,G07,remover bloqueio antes de alterar,multipla-escolha,essencial,certo,C,,
 2026-10-18,S15,A23,casos de uso,multipla-escolha,essencial,certo,C,,app aprovado mesmo em notebook da empresa
 2026-10-18,S15,A02,zonas de disponibilidade,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,G08,finalidade do portal,multipla-escolha,essencial,certo,C,,interface gráfica sem instalar
+2026-10-18,S15,G08,portal sem instalação,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G08,resiliência do portal,sim-nao,essencial,certo,C,,presente em todos os datacenters
+2026-10-18,S15,G08,resiliência do portal,sim-nao,essencial,certo,C,,sem tempo de inatividade
+2026-10-18,S15,G08,finalidade do portal,completar,essencial,certo,C,,alternativa à linha de comando
+2026-10-18,S15,G08,portal e Cloud Shell no celular,multipla-selecao,essencial,certo,C,,erro do simulado recuperado
+2026-10-18,S15,G08,recursos do portal,associacao,essencial,certo,C,,dashboards
+2026-10-18,S15,G08,recursos do portal,associacao,essencial,certo,C,,acessibilidade
+2026-10-18,S15,G08,Copilot no Azure,associacao,essencial,certo,C,,
+2026-10-18,S15,G08,Copilot no Azure,multipla-escolha,detalhe,certo,C,,assistente operacional
+2026-10-18,S15,A05,assinaturas,multipla-escolha,essencial,certo,C,,limite de cobrança e acesso
+2026-10-18,S15,A19,tempo real vs assíncrona,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,G09,CLI vs PowerShell,multipla-escolha,essencial,certo,C,,Bash para admins Linux
+2026-10-18,S15,G09,Cloud Shell sem instalação,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G09,Cloud Shell autenticado,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G09,PowerShell fora do Cloud Shell,sim-nao,essencial,certo,C,,instalável em Windows Linux Mac
+2026-10-18,S15,G09,cmdlets,completar,essencial,certo,C,,chamam a API REST
+2026-10-18,S15,G09,shells do Cloud Shell,multipla-selecao,essencial,certo,C,,PowerShell e CLI
+2026-10-18,S15,G09,CLI vs PowerShell,multipla-escolha,essencial,certo,C,,diferença é a sintaxe
+2026-10-18,S15,N04,nuvem pública,multipla-escolha,essencial,certo,C,,startup sem datacenter
