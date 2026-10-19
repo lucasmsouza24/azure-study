@@ -70,7 +70,12 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Quiz de Purview (G05):** 10 de 11 + 2/2 bônus. Na múltipla escolha "escolha duas" marcou só uma alternativa (faltou "identificar onde estão os dados confidenciais").
 - **Bônus:** camada de acesso na calculadora recuperada; App Service firme.
 - **Segunda rodada de Purview:** 10 de 10 + 2/2 bônus, tudo com certeza. Governança unificada de dados recuperada; calculadora de TCO e Cost Management vs análise de custo recuperados. Lista de revisão zerada.
-- **Próximo:** Azure Policy (G06).
+- **Estudado:** Azure Policy (G06): políticas e iniciativas, escopos e herança, avaliação de recursos existentes, correção automática, exceções; contraste com RBAC, bloqueio e tag.
+- **Quiz de Azure Policy (G06):** 11 de 11 + 2/2 bônus (Entra Connect; modelo baseado em consumo), tudo com certeza. Policy vs RBAC vs bloqueio vs tag firme; Owner não ignora a política.
+- **Segunda rodada de Azure Policy:** 11 de 11, tudo com certeza (redimensionamento avaliado, escopos, correção automática, definição/iniciativa/atribuição/exceção).
+- **Bônus:** 1 de 2. Errou de novo os casos de uso do acesso condicional por interpretação do enunciado: marcou aplicativos aprovados para "notebooks registrados e em conformidade" (é dispositivos gerenciados). Quarto erro no tema, a maioria de leitura (app vs dispositivo).
+- **Estudado:** bloqueios de recursos (G07): CanNotDelete vs ReadOnly, escopos (recurso, RG, assinatura) e herança, valem independentemente do RBAC, remover antes de alterar.
+- **Próximo:** quiz de bloqueios de recursos.
 
 ## S14 — 17/10/2026
 

@@ -516,3 +516,29 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-18,S15,G05,governança unificada de dados,multipla-escolha,essencial,certo,C,,regulador e acesso em escala
 2026-10-18,S15,G02,calculadora de TCO desativada,multipla-escolha,detalhe,certo,C,,
 2026-10-18,S15,G03,Cost Management vs análise de custo,multipla-escolha,essencial,certo,C,,análise é uma parte da ferramenta
+2026-10-18,S15,G06,finalidade do Azure Policy,multipla-escolha,essencial,certo,C,,novos e existentes em conformidade
+2026-10-18,S15,G06,herança de política,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G06,avaliação de recursos existentes,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G06,Policy vs RBAC,sim-nao,essencial,certo,C,,Owner não ignora a política
+2026-10-18,S15,G06,iniciativa,completar,essencial,certo,C,,
+2026-10-18,S15,G06,Policy vs RBAC vs bloqueio vs tag,associacao,essencial,certo,C,,RBAC para equipe de banco
+2026-10-18,S15,G06,Policy vs RBAC vs bloqueio vs tag,associacao,essencial,certo,C,,Policy para vCPUs
+2026-10-18,S15,G06,Policy vs RBAC vs bloqueio vs tag,associacao,essencial,certo,C,,bloqueio na conta de logs
+2026-10-18,S15,G06,Policy vs RBAC vs bloqueio vs tag,associacao,essencial,certo,C,,tag de ambiente
+2026-10-18,S15,G06,capacidades do Azure Policy,multipla-selecao,essencial,certo,C,,corrigir impedir exceção
+2026-10-18,S15,G06,Policy com alterações por IA,multipla-escolha,detalhe,certo,C,,SKUs e regiões
+2026-10-18,S15,A20,papel do Entra Connect,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,N05,modelo baseado em consumo,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,G06,avaliação de recursos existentes,multipla-escolha,essencial,certo,C,,redimensionamento avaliado
+2026-10-18,S15,G06,escopos de atribuição,sim-nao,essencial,certo,C,,não só assinatura
+2026-10-18,S15,G06,definições internas,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G06,Policy com Azure DevOps,sim-nao,detalhe,certo,C,,pré e pós-implantação
+2026-10-18,S15,G06,correção automática,completar,essencial,certo,C,,adiciona tag ausente
+2026-10-18,S15,G06,conceitos do Azure Policy,associacao,essencial,certo,C,,definição de política
+2026-10-18,S15,G06,iniciativa,associacao,essencial,certo,C,,
+2026-10-18,S15,G06,conceitos do Azure Policy,associacao,essencial,certo,C,,atribuição
+2026-10-18,S15,G06,conceitos do Azure Policy,associacao,essencial,certo,C,,exceção
+2026-10-18,S15,G06,escopos de atribuição,multipla-selecao,essencial,certo,C,,MG assinatura RG
+2026-10-18,S15,G06,finalidade do Azure Policy,multipla-escolha,essencial,certo,C,,HTTPS no grupo de gerenciamento
+2026-10-18,S15,N02,responsabilidade compartilhada,multipla-escolha,essencial,certo,C,,dados e identidades
+2026-10-18,S15,A23,casos de uso,multipla-escolha,essencial,errado,C,distracao,leu notebooks registrados como restrição de app

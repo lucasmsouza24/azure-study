@@ -6,18 +6,18 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 517 |
+| Itens respondidos | 543 |
 | Sessões | 14 |
 | Acerto geral | 94% |
 | Acerto firme (certo com certeza, entre itens com confiança informada) | 89% |
-| Erros com certeza (falsa certeza) | 18 |
+| Erros com certeza (falsa certeza) | 19 |
 
 ## Projeção
 
 | Cenário | Acerto ponderado |
 | --- | --- |
-| Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 97% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 73% |
+| Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 75% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -25,18 +25,18 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
-| Descrever os conceitos da nuvem | 27.5% | 10/15 | 25 | 100% | 92% de 25 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 424 | 93% | 88% de 397 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 5/15 | 68 | 94% | 93% de 68 |
+| Descrever os conceitos da nuvem | 27.5% | 10/15 | 27 | 100% | 93% de 27 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 426 | 93% | 88% de 399 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 6/15 | 90 | 96% | 94% de 90 |
 
 ## Por requisito
 
 | ID | Requisito | Itens | Acerto (últimos 10) | Firme | Última vez |
 | --- | --- | --- | --- | --- | --- |
-| N02 | Descrever o modelo de responsabilidade compartilhada | 2 | 100% | 100% de 2 | 2026-10-12 |
+| N02 | Descrever o modelo de responsabilidade compartilhada | 3 | 100% | 100% de 3 | 2026-10-18 |
 | N03 | Definir os modelos de nuvem, incluindo público, privado e híbrido | 3 | 100% | 67% de 3 | 2026-10-18 |
 | N04 | Identificar os casos de uso apropriados para cada modelo de nuvem | 2 | 100% | 100% de 2 | 2026-10-12 |
-| N05 | Descrever o modelo baseado em consumo | 3 | 100% | 100% de 3 | 2026-10-12 |
+| N05 | Descrever o modelo baseado em consumo | 4 | 100% | 100% de 4 | 2026-10-18 |
 | N07 | Descrever a computação sem servidor | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 2 | 100% | 100% de 2 | 2026-10-16 |
@@ -62,10 +62,10 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A17 | Descrever as opções de conta de armazenamento e os tipos de armazenamento | 31 | 100% | 90% de 31 | 2026-10-12 |
 | A18 | Identificar opções para mover arquivos, incluindo o AzCopy, o Gerenciador de Armazenamento do Azure e a Sincronização de Arquivos do Azure | 27 | 100% | 93% de 27 | 2026-10-14 |
 | A19 | Descrever as opções de migração, incluindo as Migrações para Azure e o Azure Data Box | 21 | 80% | 90% de 21 | 2026-10-14 |
-| A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 68 | 90% | 82% de 68 | 2026-10-14 |
+| A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 69 | 100% | 83% de 69 | 2026-10-18 |
 | A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 15 | 100% | 93% de 15 | 2026-10-14 |
 | A22 | Descrever identidades externas no Azure | 29 | 100% | 83% de 29 | 2026-10-15 |
-| A23 | Descrever o acesso condicional do Microsoft Entra | 25 | 100% | 84% de 25 | 2026-10-18 |
+| A23 | Descrever o acesso condicional do Microsoft Entra | 26 | 90% | 81% de 26 | 2026-10-18 |
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
 | A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
 | A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
@@ -74,6 +74,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | G03 | Descrever as funcionalidades de gerenciamento de custos do Azure | 12 | 100% | 92% de 12 | 2026-10-18 |
 | G04 | Descreva a finalidade das tags | 11 | 100% | 100% de 11 | 2026-10-18 |
 | G05 | Descrever a finalidade do Microsoft Purview no Azure | 21 | 100% | 95% de 21 | 2026-10-18 |
+| G06 | Descrever a finalidade do Azure Policy | 22 | 100% | 100% de 22 | 2026-10-18 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -81,24 +82,24 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 186 | 94% |
-| Sim/Não | 132 | 91% |
-| Completar a frase | 36 | 92% |
-| Associação | 128 | 97% |
-| Múltipla seleção | 35 | 94% |
+| Múltipla escolha | 194 | 94% |
+| Sim/Não | 138 | 91% |
+| Completar a frase | 38 | 92% |
+| Associação | 136 | 97% |
+| Múltipla seleção | 37 | 95% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 476 | 94% |
-| Detalhe do Learn | 41 | 93% |
+| Essencial | 500 | 94% |
+| Detalhe do Learn | 43 | 93% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 454 | 96% |
+| Certeza | 480 | 96% |
 | Dúvida | 31 | 68% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
@@ -108,13 +109,15 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 | Tipo | Erros |
 | --- | --- |
 | Conteúdo (não sabia) | 16 |
-| Distração (sabia, mas leu ou marcou errado) | 7 |
+| Distração (sabia, mas leu ou marcou errado) | 8 |
 | Pegadinha (caiu no distrator vizinho) | 6 |
 | Nomenclatura (confundiu nomes) | 3 |
 
 ## Temas a revisar (última tentativa errada)
 
-Nenhum.
+| Requisito | Tema | Última vez | Observação |
+| --- | --- | --- | --- |
+| A23 | casos de uso | 2026-10-18 | leu notebooks registrados como restrição de app |
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
@@ -141,11 +144,10 @@ Nenhum.
 | A20 | Entra Domain Services vs AD DS em VMs | 2026-10-14 | — |
 | A20 | Entra ID vs Domain Services | 2026-10-14 | política de grupo é do domínio |
 | A20 | Proxy de Aplicativo | 2026-10-13 | — |
-| A20 | papel do Entra Connect | 2026-10-13 | — |
+| A20 | papel do Entra Connect | 2026-10-18 | — |
 | A20 | sincronização do Domain Services | 2026-10-13 | sem AD local |
 | A22 | ID Externa para clientes | 2026-10-15 | clientes finais app loja |
 | A22 | conexão direta B2B | 2026-10-15 | direct connect não é guest no diretório |
-| A23 | casos de uso | 2026-10-15 | MFA por função ou local |
 | G01 | reserva para recurso fixo | 2026-10-18 | banco por 3 anos |
 | G02 | calculadora de TCO desativada | 2026-10-18 | — |
 | G02 | opções de armazenamento na calculadora | 2026-10-18 | camada de acesso entra |

@@ -87,7 +87,7 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 ### Descrever os recursos e as ferramentas de governança e conformidade no Azure
 
 - [x] Descrever a finalidade do Microsoft Purview no Azure
-- [ ] Descrever a finalidade do Azure Policy
+- [x] Descrever a finalidade do Azure Policy
 - [ ] Descrever a finalidade dos bloqueios de recursos
 
 ### Descrever recursos e ferramentas para gerenciar e implantar recursos do Azure
