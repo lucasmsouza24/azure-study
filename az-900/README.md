@@ -88,7 +88,7 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 
 - [x] Descrever a finalidade do Microsoft Purview no Azure
 - [x] Descrever a finalidade do Azure Policy
-- [ ] Descrever a finalidade dos bloqueios de recursos
+- [x] Descrever a finalidade dos bloqueios de recursos
 
 ### Descrever recursos e ferramentas para gerenciar e implantar recursos do Azure
 

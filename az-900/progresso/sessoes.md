@@ -75,7 +75,8 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Segunda rodada de Azure Policy:** 11 de 11, tudo com certeza (redimensionamento avaliado, escopos, correção automática, definição/iniciativa/atribuição/exceção).
 - **Bônus:** 1 de 2. Errou de novo os casos de uso do acesso condicional por interpretação do enunciado: marcou aplicativos aprovados para "notebooks registrados e em conformidade" (é dispositivos gerenciados). Quarto erro no tema, a maioria de leitura (app vs dispositivo).
 - **Estudado:** bloqueios de recursos (G07): CanNotDelete vs ReadOnly, escopos (recurso, RG, assinatura) e herança, valem independentemente do RBAC, remover antes de alterar.
-- **Próximo:** quiz de bloqueios de recursos.
+- **Quiz de bloqueios de recursos (G07):** 11 de 11 + 2/2 bônus, tudo com certeza. Os dois erros do simulado (tag para impedir exclusão; bloqueio em grupo de gerenciamento) recuperados. Casos de uso do acesso condicional recuperados com app e dispositivo no mesmo enunciado. Bloco G05–G07 fechado.
+- **Próximo:** ferramentas de gerenciamento e implantação (G08–G12), começando pelo portal do Azure.
 
 ## S14 — 17/10/2026
 

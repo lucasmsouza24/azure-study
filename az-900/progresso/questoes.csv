@@ -542,3 +542,16 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-18,S15,G06,finalidade do Azure Policy,multipla-escolha,essencial,certo,C,,HTTPS no grupo de gerenciamento
 2026-10-18,S15,N02,responsabilidade compartilhada,multipla-escolha,essencial,certo,C,,dados e identidades
 2026-10-18,S15,A23,casos de uso,multipla-escolha,essencial,errado,C,distracao,leu notebooks registrados como restrição de app
+2026-10-18,S15,G07,bloqueio vs tag,multipla-escolha,essencial,certo,C,,CanNotDelete permite alterar tamanho
+2026-10-18,S15,G07,herança de bloqueio,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G07,bloqueio vale para Proprietário,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G07,escopos de bloqueio,sim-nao,essencial,certo,C,,grupo de gerenciamento não aceita
+2026-10-18,S15,G07,tipos de bloqueio,completar,essencial,certo,C,,ReadOnly
+2026-10-18,S15,G07,tipos de bloqueio,associacao,essencial,certo,C,,CanNotDelete nos backups
+2026-10-18,S15,G07,tipos de bloqueio,associacao,essencial,certo,C,,ReadOnly no firewall
+2026-10-18,S15,G07,bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,Policy para regiões
+2026-10-18,S15,G07,bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,RBAC para criar recursos
+2026-10-18,S15,G07,bloqueio e RBAC,multipla-selecao,essencial,certo,C,,gerenciamento e independência do RBAC
+2026-10-18,S15,G07,remover bloqueio antes de alterar,multipla-escolha,essencial,certo,C,,
+2026-10-18,S15,A23,casos de uso,multipla-escolha,essencial,certo,C,,app aprovado mesmo em notebook da empresa
+2026-10-18,S15,A02,zonas de disponibilidade,multipla-escolha,essencial,certo,C,,

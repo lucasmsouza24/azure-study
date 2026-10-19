@@ -6,10 +6,10 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 543 |
+| Itens respondidos | 556 |
 | Sessões | 14 |
 | Acerto geral | 94% |
-| Acerto firme (certo com certeza, entre itens com confiança informada) | 89% |
+| Acerto firme (certo com certeza, entre itens com confiança informada) | 90% |
 | Erros com certeza (falsa certeza) | 19 |
 
 ## Projeção
@@ -17,7 +17,7 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 | Cenário | Acerto ponderado |
 | --- | --- |
 | Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 75% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 77% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -26,8 +26,8 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
 | Descrever os conceitos da nuvem | 27.5% | 10/15 | 27 | 100% | 93% de 27 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 426 | 93% | 88% de 399 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 6/15 | 90 | 96% | 94% de 90 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 428 | 93% | 88% de 401 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 7/15 | 101 | 96% | 95% de 101 |
 
 ## Por requisito
 
@@ -44,7 +44,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | N13 | Descrever plataforma como serviço (PaaS) | 1 | 100% | 100% de 1 | 2026-10-12 |
 | N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 3 | 100% | 100% de 3 | 2026-10-18 |
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 6 | 83% | 67% de 6 | 2026-10-18 |
-| A02 | Descrever as zonas de disponibilidade | 3 | 100% | 100% de 3 | 2026-10-12 |
+| A02 | Descrever as zonas de disponibilidade | 4 | 100% | 100% de 4 | 2026-10-18 |
 | A03 | Descrever os datacenters do Azure | 2 | 100% | 100% de 2 | 2026-10-15 |
 | A04 | Descrever os recursos e os grupos de recursos do Azure | 2 | 100% | 100% de 2 | 2026-10-12 |
 | A05 | Descrever assinaturas | 3 | 100% | 67% de 3 | 2026-10-12 |
@@ -65,7 +65,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 69 | 100% | 83% de 69 | 2026-10-18 |
 | A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 15 | 100% | 93% de 15 | 2026-10-14 |
 | A22 | Descrever identidades externas no Azure | 29 | 100% | 83% de 29 | 2026-10-15 |
-| A23 | Descrever o acesso condicional do Microsoft Entra | 26 | 90% | 81% de 26 | 2026-10-18 |
+| A23 | Descrever o acesso condicional do Microsoft Entra | 27 | 90% | 81% de 27 | 2026-10-18 |
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
 | A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
 | A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
@@ -75,6 +75,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | G04 | Descreva a finalidade das tags | 11 | 100% | 100% de 11 | 2026-10-18 |
 | G05 | Descrever a finalidade do Microsoft Purview no Azure | 21 | 100% | 95% de 21 | 2026-10-18 |
 | G06 | Descrever a finalidade do Azure Policy | 22 | 100% | 100% de 22 | 2026-10-18 |
+| G07 | Descrever a finalidade dos bloqueios de recursos | 11 | 100% | 100% de 11 | 2026-10-18 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -82,24 +83,24 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 194 | 94% |
-| Sim/Não | 138 | 91% |
-| Completar a frase | 38 | 92% |
-| Associação | 136 | 97% |
-| Múltipla seleção | 37 | 95% |
+| Múltipla escolha | 198 | 94% |
+| Sim/Não | 141 | 91% |
+| Completar a frase | 39 | 92% |
+| Associação | 140 | 97% |
+| Múltipla seleção | 38 | 95% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 500 | 94% |
+| Essencial | 513 | 94% |
 | Detalhe do Learn | 43 | 93% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 480 | 96% |
+| Certeza | 493 | 96% |
 | Dúvida | 31 | 68% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
@@ -115,9 +116,7 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 ## Temas a revisar (última tentativa errada)
 
-| Requisito | Tema | Última vez | Observação |
-| --- | --- | --- | --- |
-| A23 | casos de uso | 2026-10-18 | leu notebooks registrados como restrição de app |
+Nenhum.
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
@@ -148,6 +147,7 @@ Nenhum.
 | A20 | sincronização do Domain Services | 2026-10-13 | sem AD local |
 | A22 | ID Externa para clientes | 2026-10-15 | clientes finais app loja |
 | A22 | conexão direta B2B | 2026-10-15 | direct connect não é guest no diretório |
+| A23 | casos de uso | 2026-10-18 | app aprovado mesmo em notebook da empresa |
 | G01 | reserva para recurso fixo | 2026-10-18 | banco por 3 anos |
 | G02 | calculadora de TCO desativada | 2026-10-18 | — |
 | G02 | opções de armazenamento na calculadora | 2026-10-18 | camada de acesso entra |
