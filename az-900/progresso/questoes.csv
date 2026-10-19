@@ -463,3 +463,56 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-18,S15,G02,calculadora de TCO desativada,completar,detalhe,errado,C,distracao,marcou preços em vez de TCO
 2026-10-18,S15,N10,segurança e governança na nuvem,multipla-escolha,essencial,certo,D,,dúvida sobre DDoS
 2026-10-18,S15,N15,rede virtual é IaaS,multipla-escolha,essencial,certo,C,,erro do simulado recuperado
+2026-10-18,S15,G03,análise de custo,multipla-escolha,essencial,certo,C,,gasto por grupo de recursos no trimestre
+2026-10-18,S15,G03,alerta de crédito,sim-nao,essencial,certo,C,,só pagamento antecipado do EA
+2026-10-18,S15,G03,escopo do orçamento,sim-nao,essencial,certo,C,,RG e tipo de serviço também
+2026-10-18,S15,G03,análise de custo,sim-nao,essencial,certo,C,,custo acumulado vs orçamento
+2026-10-18,S15,G03,alerta de crédito,completar,detalhe,certo,C,,90 e 100 por cento
+2026-10-18,S15,G03,alerta de orçamento,associacao,essencial,certo,C,,80 por cento do limite
+2026-10-18,S15,G03,alerta de crédito,associacao,essencial,certo,C,,
+2026-10-18,S15,G03,alerta de cota de departamento,associacao,essencial,certo,C,,
+2026-10-18,S15,G03,Cost Management vs Azure Monitor,associacao,essencial,certo,C,,CPU acima de 80 é Monitor
+2026-10-18,S15,G03,Cost Management vs análise de custo,multipla-selecao,essencial,certo,D,,confundiu a ferramenta com a funcionalidade de análise de custo
+2026-10-18,S15,G03,orçamento com automação,multipla-escolha,essencial,certo,C,,desligar VMs de teste
+2026-10-18,S15,N10,segurança e governança na nuvem,sim-nao,essencial,certo,C,,IaaS dá mais controle
+2026-10-18,S15,N10,segurança e governança na nuvem,sim-nao,essencial,certo,C,,patches em PaaS e SaaS
+2026-10-18,S15,N10,segurança e governança na nuvem,sim-nao,essencial,certo,C,,DDoS
+2026-10-18,S15,G01,reserva para recurso fixo,multipla-escolha,essencial,certo,C,,banco por 3 anos
+2026-10-18,S15,G04,tags para rateio de custo,multipla-escolha,essencial,certo,C,,centro de custo sem reorganizar
+2026-10-18,S15,G04,estrutura da tag,sim-nao,essencial,certo,C,,nome e valor
+2026-10-18,S15,G04,tags não herdam,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G04,tags opcionais por recurso,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G04,Azure Policy para tags,completar,essencial,certo,C,,exigir e reaplicar
+2026-10-18,S15,G04,tag vs bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,bloqueio impede exclusão
+2026-10-18,S15,G04,tag vs bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,tag identifica responsável
+2026-10-18,S15,G04,tag vs bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,RBAC para equipe de rede
+2026-10-18,S15,G04,tag vs bloqueio vs Policy vs RBAC,associacao,essencial,certo,C,,Policy para regiões
+2026-10-18,S15,G04,usos de tags,multipla-selecao,essencial,certo,C,,SLA segurança conformidade
+2026-10-18,S15,G04,usos de tags,multipla-escolha,essencial,certo,C,,automação com DevOps
+2026-10-18,S15,N03,nuvem híbrida,multipla-escolha,essencial,certo,C,,dados locais e escala no Azure
+2026-10-18,S15,A01,pares de regiões,multipla-escolha,essencial,certo,C,,mesma geografia 480 km
+2026-10-18,S15,G05,finalidade do Purview,multipla-escolha,essencial,certo,C,,visão única de dados em várias nuvens
+2026-10-18,S15,G05,Purview além do Azure,sim-nao,essencial,certo,C,,local e outras nuvens
+2026-10-18,S15,G05,classificação de dados confidenciais,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G05,risco e conformidade com Microsoft 365,sim-nao,essencial,certo,C,,
+2026-10-18,S15,G05,linhagem de dados,completar,essencial,certo,C,,
+2026-10-18,S15,G05,Purview vs Policy vs Defender vs tag,associacao,essencial,certo,C,,colunas com cartão
+2026-10-18,S15,G05,Purview vs Policy vs Defender vs tag,associacao,essencial,certo,C,,regiões aprovadas
+2026-10-18,S15,G05,Purview vs Policy vs Defender vs tag,associacao,essencial,certo,C,,ameaças nas VMs
+2026-10-18,S15,G05,Purview vs Policy vs Defender vs tag,associacao,essencial,certo,C,,nome do responsável
+2026-10-18,S15,G05,risco e conformidade com Microsoft 365,multipla-escolha,essencial,certo,C,,Teams OneDrive e-mail
+2026-10-18,S15,G05,governança unificada de dados,multipla-selecao,essencial,errado,C,distracao,marcou só C em escolha duas
+2026-10-18,S15,G02,opções de armazenamento na calculadora,multipla-escolha,essencial,certo,C,,camada de acesso entra
+2026-10-18,S15,A11,App Service,multipla-escolha,essencial,certo,C,,API sem VM nem contêiner
+2026-10-18,S15,G05,finalidade do Purview,multipla-escolha,essencial,certo,C,,definição vs Policy Defender Cost Management
+2026-10-18,S15,G05,Purview vs Policy vs Defender vs tag,sim-nao,essencial,certo,C,,não substitui Policy
+2026-10-18,S15,G05,governança unificada de dados,sim-nao,essencial,certo,C,,consumidores acham dados úteis
+2026-10-18,S15,G05,finalidade do Purview,sim-nao,essencial,certo,C,,orçamento não é Purview
+2026-10-18,S15,G05,áreas de solução do Purview,completar,essencial,certo,C,,
+2026-10-18,S15,G05,descoberta automatizada de dados,associacao,essencial,certo,C,,
+2026-10-18,S15,G05,classificação de dados confidenciais,associacao,essencial,certo,C,,
+2026-10-18,S15,G05,linhagem de dados,associacao,essencial,certo,C,,
+2026-10-18,S15,G05,Purview além do Azure,multipla-selecao,essencial,certo,C,,local e Amazon S3
+2026-10-18,S15,G05,governança unificada de dados,multipla-escolha,essencial,certo,C,,regulador e acesso em escala
+2026-10-18,S15,G02,calculadora de TCO desativada,multipla-escolha,detalhe,certo,C,,
+2026-10-18,S15,G03,Cost Management vs análise de custo,multipla-escolha,essencial,certo,C,,análise é uma parte da ferramenta

@@ -61,7 +61,16 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Estudado:** calculadora de preços (G02): estimativa antes de implantar, nada é provisionado, calculadora de TCO desativada.
 - **Quiz da calculadora de preços (G02):** 8 de 10 + 2/2 bônus. Errou com dúvida a camada de acesso na estimativa por nomenclatura (leu "camada de acesso" como permissão, não como access tier) e marcou "preços" em vez de TCO por desatenção.
 - **Bônus:** rede virtual é IaaS (erro do simulado) recuperado; segurança e governança na nuvem certo com dúvida sobre DDoS.
-- **Próximo:** Cost Management (G03).
+- **Estudado:** Microsoft Cost Management (G03): análise de custo, alertas de custo (orçamento, crédito, cota de departamento) e orçamentos com automação.
+- **Quiz de Cost Management (G03):** 11 de 11 + 4/4 bônus, tudo com certeza. Separou alerta de orçamento (80% do limite) de alerta de métrica do Azure Monitor (CPU acima de 80%). Na múltipla escolha, acertou com dúvida: confundiu o Cost Management (conjunto de ferramentas) com a análise de custo (uma funcionalidade dentro dele).
+- **Bônus:** reserva para recurso fixo recuperada; segurança e governança na nuvem (DDoS) firmou.
+- **Estudado:** tags (G04): metadados nome/valor, usos (custo, operações, segurança, governança, automação), não herdam, Azure Policy exige ou reaplica.
+- **Quiz de tags (G04):** 11 de 11 + 2/2 bônus (nuvem híbrida; pares de regiões), tudo com certeza. Tag vs bloqueio vs Policy vs RBAC firme (erro do simulado recuperado). Bloco de custos (G01–G04) fechado.
+- **Estudado:** Microsoft Purview (G05): governança, risco e conformidade de dados; descoberta, classificação e linhagem; risco e conformidade (Microsoft 365) vs governança unificada de dados.
+- **Quiz de Purview (G05):** 10 de 11 + 2/2 bônus. Na múltipla escolha "escolha duas" marcou só uma alternativa (faltou "identificar onde estão os dados confidenciais").
+- **Bônus:** camada de acesso na calculadora recuperada; App Service firme.
+- **Segunda rodada de Purview:** 10 de 10 + 2/2 bônus, tudo com certeza. Governança unificada de dados recuperada; calculadora de TCO e Cost Management vs análise de custo recuperados. Lista de revisão zerada.
+- **Próximo:** Azure Policy (G06).
 
 ## S14 — 17/10/2026
 

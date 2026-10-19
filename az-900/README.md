@@ -81,12 +81,12 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 
 - [x] Descrever fatores que podem afetar os custos no Azure
 - [x] Explorar a calculadora de preços
-- [ ] Descrever as funcionalidades de gerenciamento de custos do Azure
-- [ ] Descreva a finalidade das tags
+- [x] Descrever as funcionalidades de gerenciamento de custos do Azure
+- [x] Descreva a finalidade das tags
 
 ### Descrever os recursos e as ferramentas de governança e conformidade no Azure
 
-- [ ] Descrever a finalidade do Microsoft Purview no Azure
+- [x] Descrever a finalidade do Microsoft Purview no Azure
 - [ ] Descrever a finalidade do Azure Policy
 - [ ] Descrever a finalidade dos bloqueios de recursos
 
