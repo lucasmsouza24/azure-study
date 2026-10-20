@@ -575,3 +575,53 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-18,S15,G09,shells do Cloud Shell,multipla-selecao,essencial,certo,C,,PowerShell e CLI
 2026-10-18,S15,G09,CLI vs PowerShell,multipla-escolha,essencial,certo,C,,diferença é a sintaxe
 2026-10-18,S15,N04,nuvem pública,multipla-escolha,essencial,certo,C,,startup sem datacenter
+2026-10-19,S16,G10,finalidade do Azure Arc,multipla-escolha,essencial,certo,C,,políticas e inventário sem migrar
+2026-10-19,S16,G10,Arc vs Migrações para Azure,sim-nao,essencial,certo,C,,Arc não migra
+2026-10-19,S16,G10,Arc e Resource Manager,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G10,projetar recursos no Resource Manager,completar,essencial,certo,C,,
+2026-10-19,S16,G10,Arc vs Migrate vs ExpressRoute vs Policy,associacao,essencial,certo,C,,servidor que fica no local
+2026-10-19,S16,G10,Arc vs Migrate vs ExpressRoute vs Policy,associacao,essencial,certo,C,,mover após avaliação
+2026-10-19,S16,G10,Arc vs Migrate vs ExpressRoute vs Policy,associacao,essencial,certo,C,,conexão privada
+2026-10-19,S16,G10,Arc vs Migrate vs ExpressRoute vs Policy,associacao,essencial,certo,C,,Policy em recursos do Arc
+2026-10-19,S16,G10,recursos gerenciados pelo Arc,multipla-selecao,essencial,certo,C,,servidores Kubernetes SQL Server
+2026-10-19,S16,G10,finalidade do Azure Arc,multipla-escolha,essencial,certo,C,,plataforma consistente
+2026-10-19,S16,G10,Arc gerencia recursos fora do Azure,sim-nao,essencial,certo,C,,erro de digitação na resposta
+2026-10-19,S16,A08,ACI,multipla-escolha,essencial,certo,C,,um contêiner sem orquestração
+2026-10-19,S16,A09,domínios de atualização e de falha,multipla-escolha,essencial,certo,D,,dúvida entre atualização e falha
+2026-10-19,S16,G11,definição de IaC,multipla-escolha,essencial,certo,C,,ambientes idênticos a partir de arquivo
+2026-10-19,S16,G11,scripts como IaC,sim-nao,essencial,certo,C,,CLI e PowerShell
+2026-10-19,S16,G11,Bicep idempotente,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G11,declarativo vs imperativo,sim-nao,essencial,certo,C,,modelo não lista passos
+2026-10-19,S16,G11,modelos do ARM em JSON,completar,essencial,certo,C,,
+2026-10-19,S16,G11,declarativo vs imperativo,associacao,essencial,certo,C,,script imperativo
+2026-10-19,S16,G11,modelos do ARM em JSON,associacao,essencial,certo,C,,estado final
+2026-10-19,S16,G11,Bicep vs modelo do ARM,associacao,essencial,certo,C,,
+2026-10-19,S16,G11,benefícios dos modelos do ARM,multipla-selecao,essencial,certo,C,,repetível e modular
+2026-10-19,S16,G11,scripts de implantação no modelo,multipla-escolha,detalhe,certo,D,,dúvida pelo enunciado ambíguo sobre configuração
+2026-10-19,S16,A09,domínios de atualização e de falha,multipla-escolha,essencial,certo,C,,falha de rack é domínio de falha
+2026-10-19,S16,A13,endpoint privado,multipla-escolha,essencial,certo,C,,
+2026-10-19,S16,G12,finalidade do Resource Manager,multipla-escolha,essencial,certo,C,,recebe autentica autoriza e envia
+2026-10-19,S16,G12,toda ação passa pelo ARM,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G12,mesma API para todas as ferramentas,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G12,modelo do ARM vs Resource Manager,sim-nao,essencial,certo,C,,arquivo vs serviço
+2026-10-19,S16,G12,finalidade do Resource Manager,completar,essencial,certo,C,,implantação e gerenciamento
+2026-10-19,S16,G12,fluxo da requisição,associacao,essencial,certo,C,,envio pela ferramenta
+2026-10-19,S16,G12,fluxo da requisição,associacao,essencial,certo,C,,ARM recebe
+2026-10-19,S16,G12,fluxo da requisição,associacao,essencial,certo,C,,autentica e autoriza
+2026-10-19,S16,G12,fluxo da requisição,associacao,essencial,certo,C,,envia ao serviço
+2026-10-19,S16,G12,benefícios do Resource Manager,multipla-selecao,essencial,certo,C,,grupo dependências RBAC
+2026-10-19,S16,G12,modelo do ARM vs Resource Manager,multipla-escolha,essencial,certo,C,,JSON declarativo
+2026-10-19,S16,A15,camadas de acesso,multipla-escolha,essencial,certo,C,,fria 90 dias online
+2026-10-19,S16,A06,grupos de gerenciamento,multipla-escolha,essencial,certo,C,,política e RBAC em várias assinaturas
+2026-10-19,S16,G13,finalidade do Advisor,multipla-escolha,essencial,certo,C,,recomendações personalizadas
+2026-10-19,S16,G13,ações sobre recomendações,sim-nao,essencial,certo,C,,aplicar adiar ou ignorar
+2026-10-19,S16,G13,painel do Advisor,sim-nao,essencial,certo,C,,todas as assinaturas com filtros
+2026-10-19,S16,G13,ações sobre recomendações,sim-nao,essencial,certo,C,,não aplica sozinho
+2026-10-19,S16,G13,categorias do Advisor,associacao,essencial,certo,C,,confiabilidade
+2026-10-19,S16,G13,categorias do Advisor,associacao,essencial,certo,C,,custo
+2026-10-19,S16,G13,categorias do Advisor,associacao,essencial,certo,C,,segurança
+2026-10-19,S16,G13,categorias do Advisor,associacao,essencial,certo,C,,excelência operacional
+2026-10-19,S16,G13,notificações do Advisor,completar,essencial,certo,C,,erro do simulado recuperado
+2026-10-19,S16,G13,Advisor vs Monitor vs Service Health,multipla-selecao,essencial,certo,C,,
+2026-10-19,S16,A04,grupos de recursos,multipla-escolha,essencial,certo,C,,excluir o grupo exclui os recursos
+2026-10-19,S16,A14,Arquivos vs Blobs,multipla-escolha,essencial,certo,C,,SMB como pasta de rede

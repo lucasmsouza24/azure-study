@@ -6,9 +6,9 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 576 |
-| Sessões | 14 |
-| Acerto geral | 94% |
+| Itens respondidos | 626 |
+| Sessões | 15 |
+| Acerto geral | 95% |
 | Acerto firme (certo com certeza, entre itens com confiança informada) | 90% |
 | Erros com certeza (falsa certeza) | 19 |
 
@@ -17,7 +17,7 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 | Cenário | Acerto ponderado |
 | --- | --- |
 | Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 80% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 87% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -26,8 +26,8 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
 | Descrever os conceitos da nuvem | 27.5% | 10/15 | 28 | 100% | 93% de 28 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 430 | 93% | 88% de 403 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 9/15 | 118 | 97% | 96% de 118 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 438 | 93% | 88% de 411 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 13/15 | 160 | 98% | 96% de 160 |
 
 ## Por requisito
 
@@ -46,18 +46,18 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 6 | 83% | 67% de 6 | 2026-10-18 |
 | A02 | Descrever as zonas de disponibilidade | 4 | 100% | 100% de 4 | 2026-10-18 |
 | A03 | Descrever os datacenters do Azure | 2 | 100% | 100% de 2 | 2026-10-15 |
-| A04 | Descrever os recursos e os grupos de recursos do Azure | 2 | 100% | 100% de 2 | 2026-10-12 |
+| A04 | Descrever os recursos e os grupos de recursos do Azure | 3 | 100% | 100% de 3 | 2026-10-19 |
 | A05 | Descrever assinaturas | 4 | 100% | 75% de 4 | 2026-10-18 |
-| A06 | Descrever grupos de gerenciamento | 2 | 100% | 100% de 2 | 2026-10-12 |
+| A06 | Descrever grupos de gerenciamento | 3 | 100% | 100% de 3 | 2026-10-19 |
 | A07 | Descrever a hierarquia de grupos de recursos, assinaturas e grupos de gerenciamento | 3 | 100% | 100% de 3 | 2026-10-14 |
-| A08 | Comparar tipos de computação, incluindo contêineres, máquinas virtuais e funções | 8 | 88% | 88% de 8 | 2026-10-12 |
-| A09 | Descrever opções de máquina virtual, incluindo Máquinas Virtuais do Azure, Conjuntos de Dimensionamento de Máquinas Virtuais do Azure, conjuntos de disponibilidade, Área de Trabalho Virtual do Azure | 13 | 90% | 77% de 13 | 2026-10-12 |
+| A08 | Comparar tipos de computação, incluindo contêineres, máquinas virtuais e funções | 9 | 89% | 89% de 9 | 2026-10-19 |
+| A09 | Descrever opções de máquina virtual, incluindo Máquinas Virtuais do Azure, Conjuntos de Dimensionamento de Máquinas Virtuais do Azure, conjuntos de disponibilidade, Área de Trabalho Virtual do Azure | 15 | 90% | 73% de 15 | 2026-10-19 |
 | A10 | Descrever os recursos necessários para máquinas virtuais | 2 | 100% | 100% de 2 | 2026-10-16 |
 | A11 | Descrever as opções de hospedagem de aplicativos, incluindo Aplicativos Web, contêineres e máquinas virtuais | 9 | 100% | 100% de 4 | 2026-10-18 |
 | A12 | Descreva a rede virtual, incluindo a finalidade das redes virtuais do Azure, sub-redes, emparelhamento, DNS do Azure, Gateway de VPN do Azure e ExpressRoute | 41 | 100% | 74% de 31 | 2026-10-18 |
-| A13 | Definir endpoints públicos e privados | 6 | 100% | 100% de 6 | 2026-10-12 |
-| A14 | Comparar os serviços do Armazenamento do Microsoft Azure | 8 | 100% | 100% de 8 | 2026-10-12 |
-| A15 | Descrever os níveis de armazenamento | 22 | 90% | 90% de 10 | 2026-10-12 |
+| A13 | Definir endpoints públicos e privados | 7 | 100% | 100% de 7 | 2026-10-19 |
+| A14 | Comparar os serviços do Armazenamento do Microsoft Azure | 9 | 100% | 100% de 9 | 2026-10-19 |
+| A15 | Descrever os níveis de armazenamento | 23 | 100% | 91% de 11 | 2026-10-19 |
 | A16 | Descrever as opções de redundância | 32 | 90% | 94% de 32 | 2026-10-14 |
 | A17 | Descrever as opções de conta de armazenamento e os tipos de armazenamento | 31 | 100% | 90% de 31 | 2026-10-12 |
 | A18 | Identificar opções para mover arquivos, incluindo o AzCopy, o Gerenciador de Armazenamento do Azure e a Sincronização de Arquivos do Azure | 27 | 100% | 93% de 27 | 2026-10-14 |
@@ -78,6 +78,10 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | G07 | Descrever a finalidade dos bloqueios de recursos | 11 | 100% | 100% de 11 | 2026-10-18 |
 | G08 | Descrever o portal do Azure | 10 | 100% | 100% de 10 | 2026-10-18 |
 | G09 | Descrever Azure Cloud Shell, CLI do Azure e Azure PowerShell | 7 | 100% | 100% de 7 | 2026-10-18 |
+| G10 | Descrever a finalidade do Azure Arc | 11 | 100% | 100% de 11 | 2026-10-19 |
+| G11 | Descrever infraestrutura como código (IaC) | 10 | 100% | 90% de 10 | 2026-10-19 |
+| G12 | Descrever o ARM (Azure Resource Manager) e os modelos do ARM | 11 | 100% | 100% de 11 | 2026-10-19 |
+| G13 | Descrever a finalidade do Assistente do Azure | 10 | 100% | 100% de 10 | 2026-10-19 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -85,25 +89,25 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 205 | 94% |
-| Sim/Não | 147 | 92% |
-| Completar a frase | 41 | 93% |
-| Associação | 143 | 97% |
-| Múltipla seleção | 40 | 95% |
+| Múltipla escolha | 220 | 95% |
+| Sim/Não | 159 | 92% |
+| Completar a frase | 45 | 93% |
+| Associação | 158 | 97% |
+| Múltipla seleção | 44 | 95% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 532 | 94% |
-| Detalhe do Learn | 44 | 93% |
+| Essencial | 581 | 95% |
+| Detalhe do Learn | 45 | 93% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 513 | 96% |
-| Dúvida | 31 | 68% |
+| Certeza | 561 | 97% |
+| Dúvida | 33 | 70% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
 
@@ -122,22 +126,24 @@ Nenhum.
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
-Nenhum.
+| Requisito | Tema | Última vez | Observação |
+| --- | --- | --- | --- |
+| G11 | scripts de implantação no modelo | 2026-10-19 | dúvida pelo enunciado ambíguo sobre configuração |
 
 ## Temas recuperados (já errou, mas acertou depois)
 
 | Requisito | Tema | Última vez | Observação |
 | --- | --- | --- | --- |
 | A01 | pares de regiões | 2026-10-18 | mesma geografia 480 km |
-| A08 | ACI | 2026-10-12 | — |
+| A08 | ACI | 2026-10-19 | um contêiner sem orquestração |
 | A09 | conjuntos de disponibilidade | 2026-10-12 | sem custo e domínios |
-| A09 | domínios de atualização e de falha | 2026-10-12 | atualização |
+| A09 | domínios de atualização e de falha | 2026-10-19 | falha de rack é domínio de falha |
 | A12 | DNS do Azure | 2026-10-07 | não compra domínio |
 | A12 | VPN como failover do ExpressRoute | 2026-10-12 | — |
 | A12 | VPN site a site | 2026-10-15 | vários escritórios à VNet |
 | A12 | gateway de VPN | 2026-10-12 | — |
 | A12 | gateway de VPN multissite | 2026-10-12 | um gateway vários locais |
-| A15 | camadas de acesso | 2026-10-12 | fria 90 dias |
+| A15 | camadas de acesso | 2026-10-19 | fria 90 dias online |
 | A16 | acesso de leitura RA- | 2026-10-12 | somente leitura na secundária |
 | A17 | acesso por HTTP ou HTTPS | 2026-10-12 | Arquivos também por HTTPS |
 | A19 | ferramentas das Migrações para Azure | 2026-10-14 | banco de dados e app web |

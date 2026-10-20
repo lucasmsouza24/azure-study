@@ -54,6 +54,20 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Quiz de redundância (2ª rodada):** 13 de 14. Errou com certeza que RA- só permite leitura na secundária (não gravação). Acertou com dúvida a questão de "menor custo", por achar que o custo poderia prevalecer sobre um requisito.
 - **Próximo:** opções de conta de armazenamento e tipos de armazenamento.
 
+## S16 — 19/10/2026
+
+- **Quiz de Azure Arc (G10):** 11 de 11 + 2/2 bônus (a 2B tinha sido digitada errada e foi corrigida).
+- **Bônus:** ACI firme; domínio de atualização certo com dúvida (frágil).
+- **Estudado:** infraestrutura como código (G11): código em vez de configuração manual; scripts (CLI/PowerShell, imperativos) vs modelos declarativos (ARM em JSON, Bicep); repetível e idempotente.
+- **Quiz de IaC (G11):** 10 de 10 + 2/2 bônus. Dúvida na questão de scripts de implantação por enunciado ambíguo: propriedades do recurso (tamanho e quantidade de discos) vão no modelo; etapas dentro da VM (instalar nginx) usam script de implantação. O raciocínio dele estava certo.
+- **Bônus:** domínio de falha (frágil) recuperado; endpoint privado firme.
+- **Estudado:** Azure Resource Manager (G12): serviço de implantação e gerenciamento, fluxo da requisição (autentica, autoriza, envia ao serviço), mesma API para todas as ferramentas, benefícios (grupo, consistência, dependências, RBAC nativo, tags).
+- **Quiz do Azure Resource Manager (G12):** 11 de 11 + 2/2 bônus (camada fria; grupos de gerenciamento), tudo com certeza. Bloco de ferramentas de gerenciamento e implantação (G08–G12) fechado.
+- **Estudado:** Assistente do Azure (G13): recomendações personalizadas em cinco categorias (confiabilidade, segurança, desempenho, excelência operacional, custo), notificações de novas recomendações, painel filtrável.
+- **Quiz do Assistente do Azure (G13):** 10 de 10 + 2/2 bônus (grupos de recursos; Arquivos vs Blobs), tudo com certeza. Advisor vs Azure Monitor (erro do simulado) recuperado.
+- **Estudado:** Integridade do Serviço do Azure (G14): três visões (Status do Azure global, Integridade do Serviço para os seus serviços e regiões, Integridade de Recursos por recurso), alertas, histórico, links de suporte.
+- **Próximo:** quiz da Integridade do Serviço.
+
 ## S15 — 18/10/2026
 
 - **Quiz de fatores de custo (G01):** 10 de 11 + 2/2 bônus, tudo com certeza. Errou reserva vs plano de economia na escolha única (VM fixa por 3 anos é reserva), mas acertou o mesmo contraste na associação.
@@ -80,7 +94,7 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Quiz do portal do Azure (G08):** 10 de 10 + 2/2 bônus (assinaturas; tempo real vs assíncrona), tudo com certeza. Portal + Cloud Shell no Android (erro do simulado) recuperado.
 - **Cloud Shell, CLI e PowerShell (G09):** revisão rápida a partir do simulado e da unidade do portal; quiz curto 7 de 7 + 1/1 bônus (nuvem pública), tudo com certeza.
 - **Estudado:** Azure Arc (G10): estende o Resource Manager, a conformidade e o monitoramento a recursos fora do Azure (local e outras nuvens); servidores, Kubernetes, serviços de dados, SQL Server, VMs (prévia).
-- **Próximo:** quiz de Azure Arc.
+- **Próximo:** quiz de Azure Arc (feito na S16).
 
 ## S14 — 17/10/2026
 

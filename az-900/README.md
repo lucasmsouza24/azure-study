@@ -94,12 +94,12 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 
 - [x] Descrever o portal do Azure
 - [x] Descrever Azure Cloud Shell, CLI do Azure e Azure PowerShell
-- [ ] Descrever a finalidade do Azure Arc
-- [ ] Descrever infraestrutura como código (IaC)
-- [ ] Descrever o ARM (Azure Resource Manager) e os modelos do ARM
+- [x] Descrever a finalidade do Azure Arc
+- [x] Descrever infraestrutura como código (IaC)
+- [x] Descrever o ARM (Azure Resource Manager) e os modelos do ARM
 
 ### Descrever as ferramentas de monitoramento no Azure
 
-- [ ] Descrever a finalidade do Assistente do Azure
+- [x] Descrever a finalidade do Assistente do Azure
 - [ ] Descrever a Integridade do Serviço do Azure
 - [ ] Descrever Azure Monitor, incluindo Log Analytics, alertas de Azure Monitor e Azure Monitor Application Insights
