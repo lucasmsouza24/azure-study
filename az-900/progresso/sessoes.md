@@ -75,7 +75,10 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Consolidação dos pilares:** Defender = há atacante; Proteger = há padrão (MCSB, Policy) ou nota (pontuação segura); Avaliar = falha encontrada por varredura. Analogia: scanner de dependências (Avaliar) vs regras obrigatórias do repositório com nota (Proteger).
 - **Drill dos pilares:** 6 de 11 + 1/1 bônus (aviso de integridade, com dúvida). Três padrões de erro: pontuação segura colocada no Defender (é Proteger); "Defender para Endpoint" puxou para o pilar Defender pelo nome (é Avaliar); o verbo "avalia" puxou para Avaliar (era Proteger, pelo MCSB).
 - **Segundo drill dos pilares (00h20 de 20/10):** 10 de 11 + 1/1 bônus. Pontuação segura, nome de produto e verbo enganoso recuperados. Errou com dúvida que a análise de cadeia de ataque é Avaliar (é Defender: há atacante). Dúvida sobre recomendação vs alerta: recomendação = conselho sobre configuração (Proteger); alerta = ameaça detectada (Defender). Termo do Learn PT: "análise de cadeia de morte" (kill chain).
-- **Próximo:** drill curto dos pilares no começo da próxima sessão; depois N06, N11, N12, N14.
+- **Coluna `conforto` no Notion:** replicada (status: revisar, dúvidas, confortável; padrão revisar) nas 11 tabelas restantes da página AZ-900 (2026).
+- **Revisão de modelos de preços (N06), nível mais exigente:** 11 de 11 + 1/1 bônus (cadeia de morte no pilar Defender, recuperado), tudo com certeza.
+- **Decisão:** fase de revisão; quizzes passam a ter nível exigente por padrão (registrado na skill e na rule).
+- **Próximo:** N11 (capacidade de gerenciamento), N12 (IaaS), N14 (SaaS); depois refazer a avaliação prática da Microsoft.
 
 ## S15 — 18/10/2026
 

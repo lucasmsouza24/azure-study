@@ -35,9 +35,23 @@ Objetivo: 1–2 questões no fim do set, de temas **não relacionados** ao tema 
 
 Mesmo nível prova; pode ser 1 escolha única ou 1 Sim/Não curto. Rotule como **Bônus de revisão** e cite o requisito/tema em uma palavra (ex. “rede — VPN site a site”).
 
-## Nível de dificuldade (padrão = prova)
+## Nível de dificuldade (padrão atual = exigente)
 
 A AZ-900 **não** exige design profundo, mas também **não** deve cair por absurdo óbvio. O desafio típico é **distrator vizinho** + enunciado com 1–2 pistas.
+
+Desde 20/10/2026 o Lucas está na **fase de revisão**: o padrão de todas as rodadas (inclusive bônus e temas recém-estudados) é o **nível exigente** abaixo, sem aumentar a quantidade de questões. O nível prova vale só se ele pedir "mais fácil" ou "revisão leve".
+
+### Nível exigente (padrão na fase de revisão)
+
+Tudo do nível prova, mais:
+
+- **Cenários com mais de uma restrição**, em que só a alternativa certa atende a todas (ex.: "demanda imprevisível **e** sem compra antecipada **e** gasto que cai com o uso").
+- **Alternativas compostas** que exigem acertar duas coisas ao mesmo tempo (ex.: o modelo **e** a classificação CapEx/OpEx; o pilar **e** a capacidade).
+- Distratores **só vizinhos**, incluindo um que pareça certo por um detalhe do enunciado (ex.: VM spot "barata" quando o tráfego é crítico).
+- **Armadilhas de leitura** de forma deliberada, nunca por ambiguidade: verbo que não corresponde ao conceito, nome de produto que puxa para o vizinho, "só"/"sempre"/"nunca" mudando o sentido.
+- Afirmações de Sim/Não que exigem o detalhe certo do Learn, não a ideia geral.
+
+Limites: nada fora do Learn; nenhuma questão em que duas alternativas possam ser defendidas. Se uma armadilha depende de uma palavra que o Learn usa em dois sentidos, reescreva até ficar sem ambiguidade. A exigência vem do **cenário**, não de rótulos secundários: não monte o set em torno de uma nomenclatura menor da unidade (ex.: "gerenciamento da nuvem" vs "na nuvem"); isso continua contando como detalhe do Learn, no máximo 1 a cada 5.
 
 ### Faça (nível prova)
 
@@ -78,8 +92,8 @@ Em questão de **detalhe do Learn**, o enunciado deve trazer a pista que permite
 
 ### Se ele pedir outro nível
 
-- **“mais fácil” / revisão leve:** pode usar 1–2 distratores mais distantes e mais definições diretas.
-- **“mais difícil”:** alongue o cenário e use **só** vizinhos; nunca invente conteúdo fora do outline AZ-900.
+- **“mais fácil” / revisão leve:** volte ao nível prova; pode usar 1–2 distratores mais distantes e mais definições diretas.
+- **“mais difícil”:** além do nível exigente, alongue o cenário; nunca invente conteúdo fora do outline AZ-900.
 
 ## Tipos (varie)
 

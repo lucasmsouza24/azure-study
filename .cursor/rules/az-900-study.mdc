@@ -24,7 +24,7 @@ Lucas estuda Azure Fundamentals (AZ-900). Notion é a fonte das anotações. Est
 
 - Conciso. Tabelas para contrastes (IaaS/PaaS/SaaS, HA vs scalability, lock vs Policy).
 - Skills: `az900-exam-summary`, `az900-practice-questions`, `az900-translation-review`.
-- Quizzes via `az900-practice-questions`: dificuldade **nível prova** (distratores vizinhos; sem eliminação óbvia) e formatos misturados (**escolha única**, Sim/Não, completar, associação, **múltipla escolha** = várias corretas). Variar padrões de Sim/Não e letras (evitar S/N/S e AB de default). “Mais fácil” ou formato único só se pedir.
+- Quizzes via `az900-practice-questions`: desde 20/10/2026 (fase de revisão), dificuldade **exigente** por padrão (cenários com várias restrições, alternativas compostas, armadilhas de leitura sem ambiguidade; mesma quantidade de questões) e formatos misturados (**escolha única**, Sim/Não, completar, associação, **múltipla escolha** = várias corretas). Variar padrões de Sim/Não e letras (evitar S/N/S e AB de default). “Mais fácil” ou formato único só se pedir.
 - Resumos via `az900-exam-summary`: cheatsheet no chat (tabela/lista), fonte **Microsoft Learn**, nunca Notion e nunca arquivo neste repo.
 - Para anotações do Lucas em outros fluxos, use o Notion MCP se estiver disponível.
 

@@ -6,7 +6,7 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 690 |
+| Itens respondidos | 707 |
 | Sessões | 15 |
 | Acerto geral | 94% |
 | Acerto firme (certo com certeza, entre itens com confiança informada) | 89% |
@@ -17,7 +17,7 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 | Cenário | Acerto ponderado |
 | --- | --- |
 | Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 91% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 94% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -25,9 +25,9 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
-| Descrever os conceitos da nuvem | 27.5% | 10/15 | 29 | 100% | 93% de 29 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 27/27 | 475 | 92% | 86% de 448 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 15/15 | 186 | 97% | 94% de 186 |
+| Descrever os conceitos da nuvem | 27.5% | 12/15 | 41 | 100% | 95% de 41 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 27/27 | 477 | 92% | 86% de 450 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 15/15 | 189 | 97% | 94% de 189 |
 
 ## Por requisito
 
@@ -37,10 +37,12 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | N03 | Definir os modelos de nuvem, incluindo público, privado e híbrido | 3 | 100% | 67% de 3 | 2026-10-18 |
 | N04 | Identificar os casos de uso apropriados para cada modelo de nuvem | 3 | 100% | 100% de 3 | 2026-10-18 |
 | N05 | Descrever o modelo baseado em consumo | 4 | 100% | 100% de 4 | 2026-10-18 |
+| N06 | Comparar os modelos de preços de nuvem | 11 | 100% | 100% de 11 | 2026-10-20 |
 | N07 | Descrever a computação sem servidor | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 2 | 100% | 100% de 2 | 2026-10-16 |
 | N10 | Descrever os benefícios da segurança e da governança na nuvem | 5 | 100% | 80% de 5 | 2026-10-18 |
+| N11 | Descrever os benefícios da capacidade de gerenciamento na nuvem | 1 | 100% | 100% de 1 | 2026-10-20 |
 | N13 | Descrever plataforma como serviço (PaaS) | 2 | 100% | 100% de 2 | 2026-10-19 |
 | N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 3 | 100% | 100% de 3 | 2026-10-18 |
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 6 | 83% | 67% de 6 | 2026-10-18 |
@@ -69,7 +71,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
 | A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
 | A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
-| A27 | Descrever a finalidade do Microsoft Defender para Nuvem | 33 | 90% | 61% de 33 | 2026-10-20 |
+| A27 | Descrever a finalidade do Microsoft Defender para Nuvem | 35 | 90% | 63% de 35 | 2026-10-20 |
 | G01 | Descrever fatores que podem afetar os custos no Azure | 12 | 100% | 92% de 12 | 2026-10-18 |
 | G02 | Explorar a calculadora de preços | 12 | 80% | 83% de 12 | 2026-10-18 |
 | G03 | Descrever as funcionalidades de gerenciamento de custos do Azure | 12 | 100% | 92% de 12 | 2026-10-18 |
@@ -83,7 +85,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | G11 | Descrever infraestrutura como código (IaC) | 11 | 100% | 91% de 11 | 2026-10-19 |
 | G12 | Descrever o ARM (Azure Resource Manager) e os modelos do ARM | 11 | 100% | 100% de 11 | 2026-10-19 |
 | G13 | Descrever a finalidade do Assistente do Azure | 10 | 100% | 100% de 10 | 2026-10-19 |
-| G14 | Descrever a Integridade do Serviço do Azure | 13 | 80% | 54% de 13 | 2026-10-20 |
+| G14 | Descrever a Integridade do Serviço do Azure | 16 | 80% | 62% de 16 | 2026-10-20 |
 | G15 | Descrever Azure Monitor, incluindo Log Analytics, alertas de Azure Monitor e Azure Monitor Application Insights | 12 | 100% | 100% de 12 | 2026-10-19 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
@@ -92,24 +94,24 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 236 | 95% |
-| Sim/Não | 174 | 91% |
+| Múltipla escolha | 242 | 95% |
+| Sim/Não | 180 | 92% |
 | Completar a frase | 48 | 94% |
-| Associação | 185 | 94% |
-| Múltipla seleção | 47 | 96% |
+| Associação | 189 | 94% |
+| Múltipla seleção | 48 | 96% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 643 | 94% |
+| Essencial | 660 | 94% |
 | Detalhe do Learn | 47 | 94% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 609 | 96% |
+| Certeza | 626 | 96% |
 | Dúvida | 49 | 63% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
@@ -125,18 +127,13 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 ## Temas a revisar (última tentativa errada)
 
-| Requisito | Tema | Última vez | Observação |
-| --- | --- | --- | --- |
-| A27 | cadeia de ataque no pilar Defender | 2026-10-20 | achou que analisar como o ataque aconteceu é Avaliar |
+Nenhum.
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
 | Requisito | Tema | Última vez | Observação |
 | --- | --- | --- | --- |
-| A27 | Defender para Endpoint no pilar Avaliar | 2026-10-20 | nome do produto não define o pilar |
 | A27 | pilares do Defender | 2026-10-20 | recomendação do MCSB é Proteger |
-| G14 | Integridade do Serviço vs Monitor vs Advisor | 2026-10-19 | recomendação é Advisor |
-| G14 | aviso de integridade vs problema de serviço | 2026-10-19 | descontinuação é aviso |
 
 ## Temas recuperados (já errou, mas acertou depois)
 
@@ -164,9 +161,12 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 | A22 | ID Externa para clientes | 2026-10-15 | clientes finais app loja |
 | A22 | conexão direta B2B | 2026-10-15 | direct connect não é guest no diretório |
 | A23 | casos de uso | 2026-10-18 | app aprovado mesmo em notebook da empresa |
+| A27 | Defender para Endpoint no pilar Avaliar | 2026-10-20 | descobertas de vulnerabilidade |
+| A27 | cadeia de ataque no pilar Defender | 2026-10-20 | cadeia de morte |
 | A27 | pontuação segura no pilar Proteger | 2026-10-20 | queda da pontuação após acesso público |
 | A27 | verbo avaliar no pilar Proteger | 2026-10-20 | EKS com recomendações do MCSB |
 | G01 | reserva para recurso fixo | 2026-10-18 | banco por 3 anos |
 | G02 | calculadora de TCO desativada | 2026-10-18 | — |
 | G02 | opções de armazenamento na calculadora | 2026-10-18 | camada de acesso entra |
 | G05 | governança unificada de dados | 2026-10-18 | regulador e acesso em escala |
+| G14 | aviso de integridade vs problema de serviço | 2026-10-20 | descontinuação é aviso |

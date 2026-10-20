@@ -17,7 +17,7 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 - [x] Definir os modelos de nuvem, incluindo público, privado e híbrido
 - [x] Identificar os casos de uso apropriados para cada modelo de nuvem
 - [x] Descrever o modelo baseado em consumo
-- [ ] Comparar os modelos de preços de nuvem
+- [x] Comparar os modelos de preços de nuvem
 - [x] Descrever a computação sem servidor
 
 ### Descrever os benefícios do uso de serviços de nuvem

@@ -689,3 +689,20 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-20,S16,A27,Defender para Endpoint no pilar Avaliar,sim-nao,essencial,certo,D,,nome do produto não define o pilar
 2026-10-20,S16,A27,cadeia de ataque no pilar Defender,sim-nao,essencial,errado,D,conteudo,achou que analisar como o ataque aconteceu é Avaliar
 2026-10-20,S16,G14,o que a Integridade do Serviço mostra,multipla-escolha,essencial,certo,C,,manutenção planejada
+2026-10-20,S16,N06,modelo baseado em consumo e OpEx,multipla-escolha,essencial,certo,C,,demanda imprevisível sem compra antecipada
+2026-10-20,S16,N06,planejamento de capacidade,sim-nao,essencial,certo,C,,nuvem não exige estimar o pico
+2026-10-20,S16,N06,planejamento de capacidade,sim-nao,essencial,certo,C,,superestimar gera ociosidade
+2026-10-20,S16,N06,liberar recursos reduz custo,sim-nao,essencial,certo,C,,
+2026-10-20,S16,N06,formas de pagamento,associacao,essencial,certo,C,,reserva para carga estável
+2026-10-20,S16,N06,formas de pagamento,associacao,essencial,certo,C,,plano de economia com troca de família
+2026-10-20,S16,N06,formas de pagamento,associacao,essencial,certo,C,,spot para lote interrompível
+2026-10-20,S16,N06,formas de pagamento,associacao,essencial,certo,C,,pay-as-you-go para piloto incerto
+2026-10-20,S16,N06,CapEx vs OpEx,multipla-escolha,essencial,certo,C,,troca CapEx por OpEx
+2026-10-20,S16,N06,benefícios do modelo baseado em consumo,multipla-selecao,essencial,certo,C,,
+2026-10-20,S16,N06,escalar no pico e liberar depois,multipla-escolha,essencial,certo,C,,spot não serve para tráfego crítico
+2026-10-20,S16,A27,cadeia de ataque no pilar Defender,multipla-escolha,essencial,certo,C,,cadeia de morte
+2026-10-20,S16,N11,efeito da capacidade de gerenciamento,multipla-escolha,essencial,certo,C,,menos esforço manual e configuração consistente
+2026-10-20,S16,G14,Integridade do Serviço vs Monitor vs Advisor,sim-nao,essencial,certo,C,,recomendação não é do Monitor
+2026-10-20,S16,G14,Integridade do Serviço vs Monitor vs Advisor,sim-nao,essencial,certo,C,,Integridade de Recursos
+2026-10-20,S16,G14,aviso de integridade vs problema de serviço,sim-nao,essencial,certo,C,,descontinuação é aviso
+2026-10-20,S16,A27,Defender para Endpoint no pilar Avaliar,multipla-escolha,essencial,certo,C,,descobertas de vulnerabilidade
