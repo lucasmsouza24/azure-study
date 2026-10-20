@@ -73,7 +73,7 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 - [x] Descrever o RBAC (controle de acesso baseado em função) do Azure
 - [x] Descrever o conceito de Confiança Zero
 - [x] Descrever a finalidade do modelo de defesa em profundidade
-- [ ] Descrever a finalidade do Microsoft Defender para Nuvem
+- [x] Descrever a finalidade do Microsoft Defender para Nuvem
 
 ## Descrever o gerenciamento e a governança do Azure (30 a 35%)
 
@@ -101,5 +101,5 @@ Checkboxes = estudado. Números, temas a revisar e projeção ficam em [progress
 ### Descrever as ferramentas de monitoramento no Azure
 
 - [x] Descrever a finalidade do Assistente do Azure
-- [ ] Descrever a Integridade do Serviço do Azure
-- [ ] Descrever Azure Monitor, incluindo Log Analytics, alertas de Azure Monitor e Azure Monitor Application Insights
+- [x] Descrever a Integridade do Serviço do Azure
+- [x] Descrever Azure Monitor, incluindo Log Analytics, alertas de Azure Monitor e Azure Monitor Application Insights

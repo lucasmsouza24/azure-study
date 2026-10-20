@@ -625,3 +625,67 @@ data,sessao,requisito,tema,formato,nivel,resultado,confianca,erro,obs
 2026-10-19,S16,G13,Advisor vs Monitor vs Service Health,multipla-selecao,essencial,certo,C,,
 2026-10-19,S16,A04,grupos de recursos,multipla-escolha,essencial,certo,C,,excluir o grupo exclui os recursos
 2026-10-19,S16,A14,Arquivos vs Blobs,multipla-escolha,essencial,certo,C,,SMB como pasta de rede
+2026-10-19,S16,G14,Status do Azure,multipla-escolha,essencial,certo,C,,visão global
+2026-10-19,S16,G14,Status do Azure vs Integridade do Serviço,sim-nao,essencial,certo,C,,Status é global
+2026-10-19,S16,G14,alertas da Integridade do Serviço,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G14,histórico de alertas,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G14,Integridade de Recursos,completar,essencial,certo,C,,VM específica e se o problema é do Azure
+2026-10-19,S16,G14,Integridade do Serviço vs Monitor vs Advisor,associacao,essencial,certo,D,,CPU é Monitor
+2026-10-19,S16,G14,Integridade do Serviço vs Monitor vs Advisor,associacao,essencial,certo,D,,recomendação é Advisor
+2026-10-19,S16,G14,aviso de integridade vs problema de serviço,associacao,essencial,errado,D,conteudo,trocou descontinuação com interrupção atual
+2026-10-19,S16,G14,aviso de integridade vs problema de serviço,associacao,essencial,errado,D,conteudo,trocou interrupção atual com descontinuação
+2026-10-19,S16,G14,o que a Integridade do Serviço mostra,multipla-selecao,essencial,certo,D,,dúvida em manutenção planejada
+2026-10-19,S16,G14,links para suporte,multipla-escolha,detalhe,certo,C,,
+2026-10-19,S16,G11,scripts de implantação no modelo,multipla-escolha,essencial,certo,C,,instalar nginx
+2026-10-19,S16,A17,tipos de conta de armazenamento,multipla-escolha,essencial,certo,C,,Standard v2
+2026-10-19,S16,G15,alerta de métrica,multipla-escolha,essencial,certo,C,,CPU acima de 80 é Monitor
+2026-10-19,S16,G15,Monitor além do Azure,sim-nao,essencial,certo,C,,local e multinuvem
+2026-10-19,S16,G15,Application Insights sem alterar código,sim-nao,essencial,certo,C,,agente
+2026-10-19,S16,G15,o que o Monitor coleta,sim-nao,essencial,certo,C,,
+2026-10-19,S16,G15,Log Analytics,completar,essencial,certo,C,,
+2026-10-19,S16,G15,Application Insights,associacao,essencial,certo,C,,tempo de resposta
+2026-10-19,S16,G15,alerta de métrica,associacao,essencial,certo,C,,
+2026-10-19,S16,G15,Monitor vs Integridade do Serviço,associacao,essencial,certo,C,,
+2026-10-19,S16,G15,regra de alerta vs grupo de ações,multipla-escolha,essencial,certo,C,,
+2026-10-19,S16,G15,o que o Application Insights monitora,multipla-selecao,essencial,certo,C,,
+2026-10-19,S16,G15,testes de disponibilidade,multipla-escolha,essencial,certo,C,,requisições sintéticas
+2026-10-19,S16,G15,Log Analytics para consultas,associacao,essencial,certo,C,,erro de digitação na resposta
+2026-10-19,S16,N13,PaaS,multipla-escolha,essencial,certo,C,,
+2026-10-19,S16,A16,RA-GZRS,multipla-escolha,essencial,certo,C,,leitura na secundária e zonas na primária
+2026-10-19,S16,A27,pontuação segura,multipla-escolha,essencial,certo,C,,postura e recomendações priorizadas
+2026-10-19,S16,A27,Defender em outras nuvens,sim-nao,essencial,certo,C,,achava que fora do Azure era só recomendação
+2026-10-19,S16,A27,Defender híbrido com Arc,sim-nao,essencial,certo,C,,
+2026-10-19,S16,A27,Defender baseado no Azure Policy,sim-nao,essencial,certo,C,,
+2026-10-19,S16,A27,pontuação segura,completar,essencial,certo,C,,
+2026-10-19,S16,A27,capacidades do Defender,multipla-selecao,essencial,certo,C,,JIT e cadeia de ataque
+2026-10-19,S16,A27,Defender vs Policy vs Advisor,multipla-escolha,essencial,certo,C,,Azure local e AWS
+2026-10-19,S16,A27,escopos dos controles do Defender,multipla-escolha,detalhe,certo,C,,
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,errado,D,conteudo,marcou Defender para vulnerabilidades
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,errado,D,conteudo,marcou Avaliar para recomendações do MCSB
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,errado,D,conteudo,marcou Proteger para alerta de segurança
+2026-10-19,S16,A18,Sincronização de Arquivos do Azure,multipla-escolha,essencial,certo,C,,cache local e camada de nuvem
+2026-10-19,S16,A21,categorias de fator MFA,multipla-escolha,essencial,certo,C,,senha e pergunta são o mesmo fator
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,certo,C,,alerta de acesso suspeito ao SQL
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,certo,C,,vulnerabilidade na imagem do contêiner
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,certo,C,,recomendação do MCSB
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,certo,C,,controles do Policy no grupo de gerenciamento
+2026-10-19,S16,A27,pilares do Defender,associacao,essencial,certo,D,,cadeia de ataque
+2026-10-19,S16,A27,pilares do Defender,sim-nao,essencial,certo,C,,JIT no pilar Defender
+2026-10-19,S16,A27,pontuação segura no pilar Proteger,associacao,essencial,errado,D,conteudo,marcou Defender para a pontuação segura
+2026-10-19,S16,A27,pontuação segura no pilar Proteger,sim-nao,essencial,errado,C,conteudo,disse que a pontuação segura é do pilar Defender
+2026-10-19,S16,A27,Defender para Endpoint no pilar Avaliar,associacao,essencial,errado,D,pegadinha,o nome Defender puxou para o pilar Defender
+2026-10-19,S16,A27,Defender para Endpoint no pilar Avaliar,sim-nao,essencial,errado,C,pegadinha,negou que a integração seja do pilar Avaliar
+2026-10-19,S16,A27,verbo avaliar no pilar Proteger,associacao,essencial,errado,C,pegadinha,o verbo avalia puxou para o pilar Avaliar
+2026-10-19,S16,G14,aviso de integridade vs problema de serviço,multipla-escolha,essencial,certo,D,,descontinuação é aviso
+2026-10-20,S16,A27,pontuação segura no pilar Proteger,associacao,essencial,certo,C,,queda da pontuação após acesso público
+2026-10-20,S16,A27,Defender para Endpoint no pilar Avaliar,associacao,essencial,certo,C,,descobertas do Gerenciamento de Vulnerabilidades
+2026-10-20,S16,A27,pilares do Defender,associacao,essencial,certo,D,,verbo avaliar com alerta de força bruta
+2026-10-20,S16,A27,pilares do Defender,associacao,essencial,certo,C,,varredura no registro de contêiner
+2026-10-20,S16,A27,pilares do Defender,associacao,essencial,certo,C,,controles de segurança
+2026-10-20,S16,A27,pilares do Defender,associacao,essencial,certo,C,,aplicativo lógico isola VM
+2026-10-20,S16,A27,verbo avaliar no pilar Proteger,associacao,essencial,certo,C,,EKS com recomendações do MCSB
+2026-10-20,S16,A27,pilares do Defender,associacao,essencial,certo,C,,JIT registra tentativa suspeita
+2026-10-20,S16,A27,pilares do Defender,sim-nao,essencial,certo,D,,recomendação do MCSB é Proteger
+2026-10-20,S16,A27,Defender para Endpoint no pilar Avaliar,sim-nao,essencial,certo,D,,nome do produto não define o pilar
+2026-10-20,S16,A27,cadeia de ataque no pilar Defender,sim-nao,essencial,errado,D,conteudo,achou que analisar como o ataque aconteceu é Avaliar
+2026-10-20,S16,G14,o que a Integridade do Serviço mostra,multipla-escolha,essencial,certo,C,,manutenção planejada

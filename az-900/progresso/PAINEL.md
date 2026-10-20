@@ -6,18 +6,18 @@ Gerado por `painel.py` a partir de `questoes.csv`. Não edite à mão: rode `pyt
 
 | Indicador | Valor |
 | --- | --- |
-| Itens respondidos | 626 |
+| Itens respondidos | 690 |
 | Sessões | 15 |
-| Acerto geral | 95% |
-| Acerto firme (certo com certeza, entre itens com confiança informada) | 90% |
-| Erros com certeza (falsa certeza) | 19 |
+| Acerto geral | 94% |
+| Acerto firme (certo com certeza, entre itens com confiança informada) | 89% |
+| Erros com certeza (falsa certeza) | 22 |
 
 ## Projeção
 
 | Cenário | Acerto ponderado |
 | --- | --- |
 | Conteúdo já estudado (média dos requisitos estudados, ponderada pelo peso do domínio) | 98% |
-| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 87% |
+| Se a prova fosse hoje (requisitos não estudados contam como chute, 25%) | 91% |
 
 Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais recentes. A Microsoft usa uma escala de 1 a 1000, com aprovação em 700, e não divulga a conversão a partir do número de acertos. Como referência prática, mire em mais de 80% no conteúdo estudado.
 
@@ -25,9 +25,9 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 
 | Domínio | Peso | Requisitos estudados | Itens | Acerto | Firme |
 | --- | --- | --- | --- | --- | --- |
-| Descrever os conceitos da nuvem | 27.5% | 10/15 | 28 | 100% | 93% de 28 |
-| Descrever a arquitetura e os serviços do Azure | 37.5% | 26/27 | 438 | 93% | 88% de 411 |
-| Descrever o gerenciamento e a governança do Azure | 32.5% | 13/15 | 160 | 98% | 96% de 160 |
+| Descrever os conceitos da nuvem | 27.5% | 10/15 | 29 | 100% | 93% de 29 |
+| Descrever a arquitetura e os serviços do Azure | 37.5% | 27/27 | 475 | 92% | 86% de 448 |
+| Descrever o gerenciamento e a governança do Azure | 32.5% | 15/15 | 186 | 97% | 94% de 186 |
 
 ## Por requisito
 
@@ -41,7 +41,7 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | N08 | Descrever os benefícios da alta disponibilidade e da escalabilidade na nuvem | 2 | 100% | 100% de 2 | 2026-10-15 |
 | N09 | Descrever os benefícios da confiabilidade e da facilidade de previsão na nuvem | 2 | 100% | 100% de 2 | 2026-10-16 |
 | N10 | Descrever os benefícios da segurança e da governança na nuvem | 5 | 100% | 80% de 5 | 2026-10-18 |
-| N13 | Descrever plataforma como serviço (PaaS) | 1 | 100% | 100% de 1 | 2026-10-12 |
+| N13 | Descrever plataforma como serviço (PaaS) | 2 | 100% | 100% de 2 | 2026-10-19 |
 | N15 | Identificar casos de uso apropriados para cada tipo de serviço de nuvem (IaaS, PaaS e SaaS) | 3 | 100% | 100% de 3 | 2026-10-18 |
 | A01 | Descrever regiões do Azure, pares de regiões e regiões soberanas | 6 | 83% | 67% de 6 | 2026-10-18 |
 | A02 | Descrever as zonas de disponibilidade | 4 | 100% | 100% de 4 | 2026-10-18 |
@@ -58,17 +58,18 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | A13 | Definir endpoints públicos e privados | 7 | 100% | 100% de 7 | 2026-10-19 |
 | A14 | Comparar os serviços do Armazenamento do Microsoft Azure | 9 | 100% | 100% de 9 | 2026-10-19 |
 | A15 | Descrever os níveis de armazenamento | 23 | 100% | 91% de 11 | 2026-10-19 |
-| A16 | Descrever as opções de redundância | 32 | 90% | 94% de 32 | 2026-10-14 |
-| A17 | Descrever as opções de conta de armazenamento e os tipos de armazenamento | 31 | 100% | 90% de 31 | 2026-10-12 |
-| A18 | Identificar opções para mover arquivos, incluindo o AzCopy, o Gerenciador de Armazenamento do Azure e a Sincronização de Arquivos do Azure | 27 | 100% | 93% de 27 | 2026-10-14 |
+| A16 | Descrever as opções de redundância | 33 | 100% | 94% de 33 | 2026-10-19 |
+| A17 | Descrever as opções de conta de armazenamento e os tipos de armazenamento | 32 | 100% | 91% de 32 | 2026-10-19 |
+| A18 | Identificar opções para mover arquivos, incluindo o AzCopy, o Gerenciador de Armazenamento do Azure e a Sincronização de Arquivos do Azure | 28 | 100% | 93% de 28 | 2026-10-19 |
 | A19 | Descrever as opções de migração, incluindo as Migrações para Azure e o Azure Data Box | 22 | 80% | 91% de 22 | 2026-10-18 |
 | A20 | Descrever os serviços de diretório no Azure, incluindo o Microsoft Entra ID e o Microsoft Entra Domain Services | 69 | 100% | 83% de 69 | 2026-10-18 |
-| A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 15 | 100% | 93% de 15 | 2026-10-14 |
+| A21 | Descrever os métodos de autenticação no Azure, incluindo SSO (logon único), MFA (autenticação multifator) e acesso sem senha | 16 | 100% | 94% de 16 | 2026-10-19 |
 | A22 | Descrever identidades externas no Azure | 29 | 100% | 83% de 29 | 2026-10-15 |
 | A23 | Descrever o acesso condicional do Microsoft Entra | 27 | 90% | 81% de 27 | 2026-10-18 |
 | A24 | Descrever o RBAC (controle de acesso baseado em função) do Azure | 24 | 100% | 100% de 24 | 2026-10-15 |
 | A25 | Descrever o conceito de Confiança Zero | 11 | 100% | 100% de 11 | 2026-10-15 |
 | A26 | Descrever a finalidade do modelo de defesa em profundidade | 11 | 100% | 100% de 11 | 2026-10-16 |
+| A27 | Descrever a finalidade do Microsoft Defender para Nuvem | 33 | 90% | 61% de 33 | 2026-10-20 |
 | G01 | Descrever fatores que podem afetar os custos no Azure | 12 | 100% | 92% de 12 | 2026-10-18 |
 | G02 | Explorar a calculadora de preços | 12 | 80% | 83% de 12 | 2026-10-18 |
 | G03 | Descrever as funcionalidades de gerenciamento de custos do Azure | 12 | 100% | 92% de 12 | 2026-10-18 |
@@ -79,9 +80,11 @@ Cada requisito conta igual dentro do domínio e usa só as 10 tentativas mais re
 | G08 | Descrever o portal do Azure | 10 | 100% | 100% de 10 | 2026-10-18 |
 | G09 | Descrever Azure Cloud Shell, CLI do Azure e Azure PowerShell | 7 | 100% | 100% de 7 | 2026-10-18 |
 | G10 | Descrever a finalidade do Azure Arc | 11 | 100% | 100% de 11 | 2026-10-19 |
-| G11 | Descrever infraestrutura como código (IaC) | 10 | 100% | 90% de 10 | 2026-10-19 |
+| G11 | Descrever infraestrutura como código (IaC) | 11 | 100% | 91% de 11 | 2026-10-19 |
 | G12 | Descrever o ARM (Azure Resource Manager) e os modelos do ARM | 11 | 100% | 100% de 11 | 2026-10-19 |
 | G13 | Descrever a finalidade do Assistente do Azure | 10 | 100% | 100% de 10 | 2026-10-19 |
+| G14 | Descrever a Integridade do Serviço do Azure | 13 | 80% | 54% de 13 | 2026-10-20 |
+| G15 | Descrever Azure Monitor, incluindo Log Analytics, alertas de Azure Monitor e Azure Monitor Application Insights | 12 | 100% | 100% de 12 | 2026-10-19 |
 
 Firme = acertou com certeza, entre os itens em que a confiança foi informada (o número indica quantos).
 
@@ -89,25 +92,25 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Formato | Itens | Acerto |
 | --- | --- | --- |
-| Múltipla escolha | 220 | 95% |
-| Sim/Não | 159 | 92% |
-| Completar a frase | 45 | 93% |
-| Associação | 158 | 97% |
-| Múltipla seleção | 44 | 95% |
+| Múltipla escolha | 236 | 95% |
+| Sim/Não | 174 | 91% |
+| Completar a frase | 48 | 94% |
+| Associação | 185 | 94% |
+| Múltipla seleção | 47 | 96% |
 
 ## Acerto por nível
 
 | Nível | Itens | Acerto |
 | --- | --- | --- |
-| Essencial | 581 | 95% |
-| Detalhe do Learn | 45 | 93% |
+| Essencial | 643 | 94% |
+| Detalhe do Learn | 47 | 94% |
 
 ## Acerto por confiança
 
 | Confiança | Itens | Acerto |
 | --- | --- | --- |
-| Certeza | 561 | 97% |
-| Dúvida | 33 | 70% |
+| Certeza | 609 | 96% |
+| Dúvida | 49 | 63% |
 | Chute | 5 | 40% |
 | Não informada | 27 | 96% |
 
@@ -115,20 +118,25 @@ Firme = acertou com certeza, entre os itens em que a confiança foi informada (o
 
 | Tipo | Erros |
 | --- | --- |
-| Conteúdo (não sabia) | 16 |
+| Conteúdo (não sabia) | 24 |
+| Pegadinha (caiu no distrator vizinho) | 9 |
 | Distração (sabia, mas leu ou marcou errado) | 8 |
-| Pegadinha (caiu no distrator vizinho) | 6 |
 | Nomenclatura (confundiu nomes) | 3 |
 
 ## Temas a revisar (última tentativa errada)
 
-Nenhum.
+| Requisito | Tema | Última vez | Observação |
+| --- | --- | --- | --- |
+| A27 | cadeia de ataque no pilar Defender | 2026-10-20 | achou que analisar como o ataque aconteceu é Avaliar |
 
 ## Temas frágeis (última tentativa certa com dúvida ou chute)
 
 | Requisito | Tema | Última vez | Observação |
 | --- | --- | --- | --- |
-| G11 | scripts de implantação no modelo | 2026-10-19 | dúvida pelo enunciado ambíguo sobre configuração |
+| A27 | Defender para Endpoint no pilar Avaliar | 2026-10-20 | nome do produto não define o pilar |
+| A27 | pilares do Defender | 2026-10-20 | recomendação do MCSB é Proteger |
+| G14 | Integridade do Serviço vs Monitor vs Advisor | 2026-10-19 | recomendação é Advisor |
+| G14 | aviso de integridade vs problema de serviço | 2026-10-19 | descontinuação é aviso |
 
 ## Temas recuperados (já errou, mas acertou depois)
 
@@ -156,6 +164,8 @@ Nenhum.
 | A22 | ID Externa para clientes | 2026-10-15 | clientes finais app loja |
 | A22 | conexão direta B2B | 2026-10-15 | direct connect não é guest no diretório |
 | A23 | casos de uso | 2026-10-18 | app aprovado mesmo em notebook da empresa |
+| A27 | pontuação segura no pilar Proteger | 2026-10-20 | queda da pontuação após acesso público |
+| A27 | verbo avaliar no pilar Proteger | 2026-10-20 | EKS com recomendações do MCSB |
 | G01 | reserva para recurso fixo | 2026-10-18 | banco por 3 anos |
 | G02 | calculadora de TCO desativada | 2026-10-18 | — |
 | G02 | opções de armazenamento na calculadora | 2026-10-18 | camada de acesso entra |

@@ -66,7 +66,16 @@ Retomada depois de cerca de 6 semanas sem estudar. Rodadas diagnósticas para me
 - **Estudado:** Assistente do Azure (G13): recomendações personalizadas em cinco categorias (confiabilidade, segurança, desempenho, excelência operacional, custo), notificações de novas recomendações, painel filtrável.
 - **Quiz do Assistente do Azure (G13):** 10 de 10 + 2/2 bônus (grupos de recursos; Arquivos vs Blobs), tudo com certeza. Advisor vs Azure Monitor (erro do simulado) recuperado.
 - **Estudado:** Integridade do Serviço do Azure (G14): três visões (Status do Azure global, Integridade do Serviço para os seus serviços e regiões, Integridade de Recursos por recurso), alertas, histórico, links de suporte.
-- **Próximo:** quiz da Integridade do Serviço.
+- **Quiz da Integridade do Serviço (G14):** 9 de 11 + 2/2 bônus. Trocou aviso de integridade (descontinuação, ação proativa) com problema de serviço (interrupção agora), com dúvida. Acertou com dúvida que a Integridade do Serviço mostra manutenção planejada.
+- **Bônus:** scripts de implantação (frágil de IaC) recuperado; Standard v2 firme.
+- **Estudado:** Azure Monitor (G15): coleta logs e métricas (Azure, local, multinuvem); Log Analytics (consultas); alertas (regra + grupo de ações; métrica ou log); Application Insights (desempenho e uso de apps web, SDK ou agente, testes de disponibilidade).
+- **Quiz do Azure Monitor (G15):** 12 de 12 + 2/2 bônus (PaaS; RA-GZRS); um item da associação foi digitado errado e corrigido. Alerta de CPU no Monitor (erro do simulado) recuperado. Domínio de governança (G01–G15) completo.
+- **Estudado:** Microsoft Defender para Nuvem (A27), agora com base de Policy, Arc e governança: postura (CSPM) e proteção contra ameaças; Azure nativo, híbrido (Arc) e multinuvem (AWS, GCP); avaliar, proteger (MCSB, pontuação segura, baseado no Azure Policy) e defender (alertas, cadeia de ataque, JIT).
+- **Quiz do Defender para Nuvem (A27):** 8 de 11 + 2/2 bônus. Errou com dúvida os três itens da associação dos pilares (avaliar = vulnerabilidades; proteger = recomendações do MCSB e pontuação segura; defender = alertas e ameaças). Achava que em outras nuvens o Defender só recomenda; o Learn diz que protege (Defender para Servidores no EC2, Contêineres no EKS).
+- **Consolidação dos pilares:** Defender = há atacante; Proteger = há padrão (MCSB, Policy) ou nota (pontuação segura); Avaliar = falha encontrada por varredura. Analogia: scanner de dependências (Avaliar) vs regras obrigatórias do repositório com nota (Proteger).
+- **Drill dos pilares:** 6 de 11 + 1/1 bônus (aviso de integridade, com dúvida). Três padrões de erro: pontuação segura colocada no Defender (é Proteger); "Defender para Endpoint" puxou para o pilar Defender pelo nome (é Avaliar); o verbo "avalia" puxou para Avaliar (era Proteger, pelo MCSB).
+- **Segundo drill dos pilares (00h20 de 20/10):** 10 de 11 + 1/1 bônus. Pontuação segura, nome de produto e verbo enganoso recuperados. Errou com dúvida que a análise de cadeia de ataque é Avaliar (é Defender: há atacante). Dúvida sobre recomendação vs alerta: recomendação = conselho sobre configuração (Proteger); alerta = ameaça detectada (Defender). Termo do Learn PT: "análise de cadeia de morte" (kill chain).
+- **Próximo:** drill curto dos pilares no começo da próxima sessão; depois N06, N11, N12, N14.
 
 ## S15 — 18/10/2026
 
